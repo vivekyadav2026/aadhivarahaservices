@@ -7,7 +7,7 @@
                 <h1>Premium Corporate Compliance <br><span>& Registrations</span></h1>
                 <p>Corporate compliance, firm registration, and monthly returns filing done smoothly by our experts. Trust us for seamless digital business setup.</p>
                 
-                <div class="hero-actions" style="justify-content: flex-start; margin-top: 30px; margin-bottom: 20px;">
+                <div class="hero-actions" style="margin-top: 30px; margin-bottom: 20px;">
                     <a href="index.php?page=services" class="btn btn-secondary" style="padding: 14px 32px; font-size: 16px;">👉 Apply Now</a>
                     <a href="https://wa.me/919876543210" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff; padding: 14px 32px; font-size: 16px;">💬 WhatsApp</a>
                 </div>
