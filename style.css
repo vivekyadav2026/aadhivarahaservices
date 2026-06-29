@@ -565,10 +565,26 @@ section {
   .service-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 550px) {
-  .service-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
-  .service-card { padding: 15px; }
-  .service-card h3 { font-size: 15px; }
-  .service-card .desc { font-size: 12px; }
+  .service-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .service-card { 
+      padding: 16px 12px; 
+      align-items: center; 
+      text-align: center;
+      justify-content: center;
+  }
+  .service-card-icon {
+      margin-bottom: 12px;
+      width: 44px;
+      height: 44px;
+      font-size: 22px;
+  }
+  .service-card h3 { 
+      font-size: 13px; 
+      margin-bottom: 0; 
+      line-height: 1.4;
+  }
+  .service-card .desc { display: none; }
+  .service-card-footer { display: none; }
 }
 
 /* Service Card (Like Image) */
@@ -583,6 +599,8 @@ section {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
 }
 
 .service-card:hover {
@@ -658,6 +676,20 @@ section {
   color: #FFFFFF;
 }
 
+/* Premium Card */
+.premium-card {
+  background: #FFFFFF;
+  border-radius: var(--border-radius-lg);
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+  transition: var(--transition-smooth);
+}
+.premium-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
 /* Specialized Layout: EPF & ESIC Sidebar / Portal */
 .portal-layout {
   display: grid;
@@ -669,6 +701,10 @@ section {
 @media (max-width: 900px) {
   .portal-layout {
     grid-template-columns: 1fr;
+  }
+  .portal-sidebar {
+    position: static;
+    margin-bottom: 20px;
   }
 }
 
@@ -1132,4 +1168,111 @@ section {
 .form-group textarea.form-control {
   resize: vertical;
   min-height: 100px;
+}
+
+/* Global Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Navigation Fixes */
+  .nav-container {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 15px !important;
+    height: auto !important;
+  }
+  .menu-toggle {
+    display: block !important;
+    color: var(--color-primary);
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    background: #ffffff !important;
+    padding: 20px !important;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1) !important;
+    z-index: 999 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+  .nav-menu.active {
+    display: flex !important;
+  }
+  .nav-menu li {
+    font-size: 16px;
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+    padding: 10px 0;
+  }
+  .nav-menu li:last-child {
+    border-bottom: none;
+  }
+  .desktop-call-btn {
+    display: none !important;
+  }
+  .mobile-call-btn {
+    display: block !important;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .has-dropdown .dropdown-menu {
+    position: static !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-left: 2px solid var(--color-accent) !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    margin-top: 10px !important;
+    padding-left: 10px !important;
+    width: 100%;
+    display: block;
+  }
+  
+  .top-bar .container {
+    font-size: 11px;
+    text-align: center;
+    padding: 8px 5px;
+  }
+  .logo img {
+    height: 45px !important;
+  }
+  
+  /* Footer Fixes */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  .footer-logo {
+    justify-content: center;
+  }
+  .footer-links li {
+    justify-content: center;
+  }
+  
+  /* Feature Grid Fixes */
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Banner Fixes */
+  .hero h1 {
+    font-size: 32px;
+  }
+  
+  /* Mobile Card Improvements */
+  .premium-card, .form-card, .testimonial-card {
+    padding: 20px !important;
+  }
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .info-block {
+    padding: 15px !important;
+  }
 }

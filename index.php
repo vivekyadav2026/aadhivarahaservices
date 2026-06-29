@@ -387,19 +387,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
 </head>
 <body>
 
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            ✓ ISO 9001:2015 CERTIFIED COMPANY | 10+ YEARS EXPERIENCE
-        </div>
-    </div>
-
     <!-- Sticky Navigation -->
     <header class="sticky-nav">
-        <div class="container nav-container">
+        <div class="container nav-container" style="position: relative;">
             <a href="index.php?page=home" class="logo" style="display: flex; align-items: center; gap: 8px;">
                 <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha" style="height: 60px; width: auto; object-fit: contain;">
             </a>
+            
+            <div class="menu-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('active')" style="display: none; font-size: 28px; cursor: pointer;">☰</div>
+
             <ul class="nav-menu">
                 <li><a href="index.php?page=home" class="nav-link <?php echo $page == 'home' ? 'active' : ''; ?>">Home</a></li>
                 <li class="has-dropdown">
@@ -410,8 +406,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                     </div>
                 </li>
                 <li><a href="index.php?page=contact" class="nav-link <?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
+                <li class="mobile-call-btn" style="display: none;"><a href="tel:+919876543210" class="btn btn-secondary" style="padding: 10px 16px; font-size: 13px;">Call 98765 43210</a></li>
             </ul>
-            <div style="display: flex; gap: 12px; align-items: center;">
+            <div class="desktop-call-btn" style="display: flex; gap: 12px; align-items: center;">
                 <a href="tel:+919876543210" class="btn btn-secondary" style="padding: 10px 16px; font-size: 13px;">Call 98765 43210</a>
             </div>
         </div>

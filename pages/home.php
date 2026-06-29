@@ -75,14 +75,14 @@
             foreach ($services as $key => $item) {
                 if ($count >= 12) break;
                 ?>
-                <div class="service-card">
+                <a href="index.php?page=service-details&id=<?php echo $key; ?>" class="service-card">
                     <div class="service-card-icon"><?php echo $item['icon']; ?></div>
                     <h3><?php echo $item['title']; ?></h3>
                     <p class="desc"><?php echo substr($item['desc'], 0, 70) . '...'; ?></p>
                     <div class="service-card-footer" style="justify-content: flex-end;">
-                        <a href="index.php?page=service-details&id=<?php echo $key; ?>" class="service-arrow-btn">➔</a>
+                        <span class="service-arrow-btn">➔</span>
                     </div>
-                </div>
+                </a>
                 <?php
                 $count++;
             }

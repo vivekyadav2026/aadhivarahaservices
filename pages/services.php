@@ -12,14 +12,14 @@
     <div class="container">
         <div class="service-grid">
             <?php foreach ($services as $key => $service): ?>
-                <div class="service-card">
+                <a href="index.php?page=service-details&id=<?php echo $key; ?>" class="service-card">
                     <div class="service-card-icon"><?php echo $service['icon']; ?></div>
                     <h3><?php echo $service['title']; ?></h3>
                     <p class="desc"><?php echo substr($service['desc'], 0, 70) . '...'; ?></p>
                     <div class="service-card-footer" style="justify-content: flex-end;">
-                        <a href="index.php?page=service-details&id=<?php echo $key; ?>" class="service-arrow-btn">➔</a>
+                        <span class="service-arrow-btn">➔</span>
                     </div>
-                </div>
+                </a>
             <?php endforeach; ?>
         </div>
     </div>
