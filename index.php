@@ -390,26 +390,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
     <!-- Sticky Navigation -->
     <header class="sticky-nav">
         <div class="container nav-container" style="position: relative;">
-            <a href="index.php?page=home" class="logo" style="display: flex; align-items: center; gap: 8px;">
-                <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha" style="height: 60px; width: auto; object-fit: contain;">
+            <a href="index.php?page=home" class="logo" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+                <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Logo" style="height: 60px; width: auto; object-fit: contain;">
+                <div class="logo-text-wrapper">
+                    <span class="logo-text-primary">Aadhivaraha</span>
+                    <span class="logo-text-secondary">Services</span>
+                    <span class="logo-text-tagline">Your Trusted Compliance Partner</span>
+                </div>
             </a>
             
             <div class="menu-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('active')" style="display: none; font-size: 28px; cursor: pointer;">☰</div>
 
             <ul class="nav-menu">
                 <li><a href="index.php?page=home" class="nav-link <?php echo $page == 'home' ? 'active' : ''; ?>">Home</a></li>
+                <li><a href="index.php?page=about" class="nav-link <?php echo $page == 'about' ? 'active' : ''; ?>">About Us</a></li>
                 <li class="has-dropdown">
                     <a href="index.php?page=services" class="nav-link <?php echo $page == 'services' ? 'active' : ''; ?>">Services ▾</a>
                     <div class="dropdown-menu">
-                        <a href="index.php?page=epf-esic" class="highlight">EPF & ESIC Portal</a>
-                        <a href="index.php?page=services">View All Services</a>
+                        <a href="index.php?page=services">All Services</a>
                     </div>
                 </li>
                 <li><a href="index.php?page=contact" class="nav-link <?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
-                <li class="mobile-call-btn" style="display: none;"><a href="tel:+919876543210" class="btn btn-secondary" style="padding: 10px 16px; font-size: 13px;">Call 98765 43210</a></li>
+                <li class="mobile-call-btn" style="display: none;"><a href="tel:+919876543210" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px;"><span style="margin-right: 8px;">📞</span> 98765 43210</a></li>
             </ul>
             <div class="desktop-call-btn" style="display: flex; gap: 12px; align-items: center;">
-                <a href="tel:+919876543210" class="btn btn-secondary" style="padding: 10px 16px; font-size: 13px;">Call 98765 43210</a>
+                <a href="tel:+919876543210" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px;"><span style="margin-right: 8px;">📞</span> 98765 43210</a>
             </div>
         </div>
     </header>
