@@ -1,5 +1,5 @@
 <!-- Hero Banner Section -->
-<section class="hero-banner" style="background: linear-gradient(rgba(248, 250, 253, 0.92), rgba(226, 235, 244, 0.95)), url('images/hero_bg.png') center/cover no-repeat; border-bottom: 1px solid #e2ebf4; position: relative;">
+<section class="hero-banner" style="background: linear-gradient(rgba(248, 250, 253, 0.75), rgba(226, 235, 244, 0.85)), url('images/hero_bg.png') center/cover no-repeat; border-bottom: 1px solid #e2ebf4; position: relative;">
     <div class="container">
         <div class="hero-content">
             <div class="hero-text-area">
