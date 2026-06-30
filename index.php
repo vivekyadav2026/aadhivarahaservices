@@ -515,7 +515,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                                 </div>
                                 <div>
                                     <span class="footer-contact-label">Office</span>
-                                    <p>Karimnagar, Telangana</p>
+                                    <p>H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar-505001</p>
                                 </div>
                             </div>
                             <div class="footer-contact-item">

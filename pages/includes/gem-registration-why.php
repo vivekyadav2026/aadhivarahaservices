@@ -79,7 +79,7 @@
             </div>
             <div>
                 <h4 style="margin: 0 0 5px 0; font-size: 15px; color: var(--color-primary);">Aadhivaraha Services</h4>
-                <p style="margin: 0; font-size: 14px; font-weight: 500; color: var(--color-text); line-height: 1.5;">A Unit of Aadhivaraha Security Allied Services<br>Near KIMS Degree College, Back Side of KNR Bus Stand, Mukarampura, Karimnagar, Telangana.</p>
+                <p style="margin: 0; font-size: 14px; font-weight: 500; color: var(--color-text); line-height: 1.5;">A Unit of Aadhivaraha Security Allied Services<br>H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar-505001</p>
             </div>
         </div>
     </div>

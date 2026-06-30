@@ -53,7 +53,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             </div>
             <h3>Visit Us</h3>
-            <p class="card-main-text" style="font-size: 13px; font-weight: 600; line-height: 1.4;">High-Tech City Phase II, Hyderabad, Telangana 500081 India</p>
+            <p class="card-main-text" style="font-size: 13px; font-weight: 600; line-height: 1.4;">H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar-505001</p>
         </div>
     </div>
 </div>
