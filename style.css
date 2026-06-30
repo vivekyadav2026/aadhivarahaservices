@@ -1839,9 +1839,17 @@ section {
     width: calc(50% - 10px);
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .features-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px;
+  }
   .features-layout > div {
     width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px !important;
   }
 }
 
@@ -1866,6 +1874,9 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
+  .hide-on-mobile {
+    display: none !important;
+  }
 }
 
 .stats-grid-layout {
@@ -1878,16 +1889,16 @@ section {
 @media (max-width: 992px) {
   .stats-grid-layout {
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px 0;
+    gap: 40px 0;
   }
   .stats-grid-layout .stats-item:nth-child(2) {
     border-right: none !important;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .stats-grid-layout {
     grid-template-columns: 1fr;
-    gap: 40px 0;
+    gap: 50px 0;
   }
   .stats-grid-layout .stats-item {
     border-right: none !important;
