@@ -11,22 +11,22 @@
                 <!-- Hero Badge Grids -->
                 <div class="abt-badge-grid">
                     <div class="abt-badge-item">
-                        <div class="abt-badge-circle">💼</div>
+                        <div class="abt-badge-circle" style="background-color: var(--color-primary); color: var(--color-accent);">💼</div>
                         <span>24+</span>
                         <small>Professional<br>Services</small>
                     </div>
                     <div class="abt-badge-item">
-                        <div class="abt-badge-circle" style="color: var(--color-accent);">🛡️</div>
+                        <div class="abt-badge-circle" style="background-color: var(--color-accent); color: #ffffff;">🛡️</div>
                         <span>99%</span>
                         <small>Client<br>Satisfaction</small>
                     </div>
                     <div class="abt-badge-item">
-                        <div class="abt-badge-circle">📄</div>
+                        <div class="abt-badge-circle" style="background-color: var(--color-primary); color: #ffffff;">📄</div>
                         <span>Secure</span>
                         <small>Document<br>Handling</small>
                     </div>
                     <div class="abt-badge-item">
-                        <div class="abt-badge-circle">⏱️</div>
+                        <div class="abt-badge-circle" style="background-color: var(--color-accent); color: #ffffff;">⏱️</div>
                         <span>Timely</span>
                         <small>Service<br>Delivery</small>
                     </div>
@@ -34,7 +34,7 @@
             </div>
             <div class="abt-hero-right">
                 <div class="abt-hero-img-mask">
-                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop" alt="Aadhivaraha Services Team">
+                    <img src="images/about_hero_team.png" alt="Aadhivaraha Services Team">
                 </div>
             </div>
         </div>

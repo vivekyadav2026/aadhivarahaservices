@@ -90,22 +90,15 @@
         </div>
 
         <div class="popular-services-grid">
-            <!-- 1. EPF Services -->
-            <a href="index.php?page=service-details&id=epfo-registration" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
-                <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">👥</div>
-                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">EPF Services</h3>
-                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">EPF Registration, ECR Filing, Returns, UAN & Claims</p>
-            </a>
-            
-            <!-- 2. ESIC Services -->
-            <a href="index.php?page=service-details&id=esic-registration" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
-                <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">🏥</div>
-                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">ESIC Services</h3>
-                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">ESIC Registration, Returns, Challan & Claim Support</p>
+            <!-- 1. EPFO & ESIC (Employer Side) -->
+            <a href="index.php?page=service-details&id=employer-side" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
+                <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">🏢</div>
+                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">EPFO & ESIC (Employer Side)</h3>
+                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">Establishment Registration, ECR Filing & Compliance</p>
             </a>
 
             <!-- 3. GST Services -->
-            <a href="index.php?page=service-details&id=gst-registration" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
+            <a href="index.php?page=service-details&id=gst-services" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
                 <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">📊</div>
                 <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">GST Services</h3>
                 <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">GST Registration, Returns Filing & Compliance</p>
@@ -132,11 +125,11 @@
                 <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">State Licence, CLRA, Shop & Establishment</p>
             </a>
 
-            <!-- 7. EPF Claims -->
+            <!-- 7. EPFO & ESIC (Member Side) -->
             <a href="index.php?page=service-details&id=epfo-esic-claims" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
                 <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">👥</div>
-                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">EPF Claims</h3>
-                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">10C, 10D, 19, 31, Pension & EDLI Claims</p>
+                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">EPFO & ESIC (Member Side)</h3>
+                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">10C, 10D, 19, 31, Pension & Medical Claims</p>
             </a>
 
             <!-- 8. GeM Registration -->

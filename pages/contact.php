@@ -7,9 +7,8 @@
             <p>Have a question or need assistance? Reach out to us and our team will get back to you shortly.</p>
         </div>
         <div class="contact-hero-right">
-            <div class="contact-hero-divider"></div>
             <div class="contact-hero-image-wrapper">
-                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1200&auto=format&fit=crop" class="contact-hero-img" alt="Contact Us Aadhivaraha Services">
+                <img src="images/contact_hero_support.png" class="contact-hero-img" alt="Contact Us Aadhivaraha Services">
             </div>
         </div>
     </div>

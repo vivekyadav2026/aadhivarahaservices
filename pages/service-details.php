@@ -17,29 +17,21 @@ $all_inclusions = [
         ['title' => 'Expert Consultation', 'desc' => 'Guidance from our experienced professionals.', 'icon' => 'user-check'],
         ['title' => 'End-to-End Support', 'desc' => 'We support you from start to finish.', 'icon' => 'lock']
     ],
-    'gst-registration' => [
+    'employer-side' => [
+        ['title' => 'Document Verification', 'desc' => 'Verifying all business proof files and identity details.', 'icon' => 'file-text'],
+        ['title' => 'Application Preparation', 'desc' => 'Preparing your official application file for EPFO & ESIC submission.', 'icon' => 'edit-3'],
+        ['title' => 'Portal Registration Filing', 'desc' => 'Submitting your registration forms on the government portal.', 'icon' => 'upload-cloud'],
+        ['title' => 'Code Number Issuance', 'desc' => 'Securing your active EPFO & ESIC registration codes.', 'icon' => 'check-circle'],
+        ['title' => 'Monthly Data Review', 'desc' => 'Reviewing monthly attendance and wage records.', 'icon' => 'search'],
+        ['title' => 'Returns Filing & Payment', 'desc' => 'Filing monthly returns and generating payment challans.', 'icon' => 'shield']
+    ],
+    'gst-services' => [
         ['title' => 'Eligibility Check', 'desc' => 'We analyze your turnover limits to confirm eligibility.', 'icon' => 'user-check'],
         ['title' => 'Document Verification', 'desc' => 'Verification of PAN, Aadhaar, and address proofs.', 'icon' => 'file-text'],
-        ['title' => 'Application Preparation', 'desc' => 'Drafting and packaging your portal application profile.', 'icon' => 'edit-3'],
         ['title' => 'GST Registration Filing', 'desc' => 'Official submission on the GST government portal.', 'icon' => 'upload-cloud'],
         ['title' => 'GSTIN Issuance', 'desc' => 'Securing your active 15-digit GSTIN number.', 'icon' => 'check-circle'],
-        ['title' => 'Post Registration Support', 'desc' => 'Consulting on monthly returns and compliance filing.', 'icon' => 'shield']
-    ],
-    'esic-registration' => [
-        ['title' => 'Eligibility Check', 'desc' => 'We analyze employee counts and wages to confirm eligibility.', 'icon' => 'user-check'],
-        ['title' => 'Document Verification', 'desc' => 'Verification of PAN, Aadhaar, and business proof files.', 'icon' => 'file-text'],
-        ['title' => 'Application Preparation', 'desc' => 'Drafting your profile application for the ESIC portal.', 'icon' => 'edit-3'],
-        ['title' => 'ESIC Registration Filing', 'desc' => 'Official submission on the ESIC government portal.', 'icon' => 'upload-cloud'],
-        ['title' => 'Authority Verification', 'desc' => 'Handling clarifications from ESIC department officers.', 'icon' => 'shield'],
-        ['title' => 'ESIC Number Issuance', 'desc' => 'Securing your active 17-digit ESIC registration code.', 'icon' => 'check-circle']
-    ],
-    'epfo-registration' => [
-        ['title' => 'Document Verification', 'desc' => 'Verifying all business proof files and partner identity details.', 'icon' => 'file-text'],
-        ['title' => 'Application Preparation', 'desc' => 'Preparing your official application file for portal submission.', 'icon' => 'edit-3'],
-        ['title' => 'EPFO Registration Filing', 'desc' => 'Submitting your registration forms on the government portal.', 'icon' => 'upload-cloud'],
-        ['title' => 'Compliance Support', 'desc' => 'Handling all statutory guidelines and portal verification queries.', 'icon' => 'shield'],
-        ['title' => 'Expert Guidance', 'desc' => 'Guiding you through employee setup and code activation.', 'icon' => 'user-check'],
-        ['title' => 'End-to-End Support', 'desc' => 'Complete backing from documents submission to code delivery.', 'icon' => 'lock']
+        ['title' => 'ITC Reconciliation', 'desc' => 'Matching GSTR-2B for Input Tax Credit claims.', 'icon' => 'search'],
+        ['title' => 'Monthly Returns Filing', 'desc' => 'Drafting and filing GSTR-1 and GSTR-3B.', 'icon' => 'shield']
     ],
     'labour-license' => [
         ['title' => 'Shops & Establishments Services', 'desc' => 'New registration, modifications, employer/address updates, and active compliance.', 'icon' => 'landmark'],
@@ -137,14 +129,7 @@ $all_inclusions = [
         ['title' => 'Portal Registration', 'desc' => 'Registering the AOP on required compliance portals.', 'icon' => 'shield'],
         ['title' => 'Completion & Support', 'desc' => 'Final handover of all registration documents.', 'icon' => 'check-circle']
     ],
-    'epfo-esic-returns' => [
-        ['title' => 'Attendance Review', 'desc' => 'Reviewing monthly attendance and wage records.', 'icon' => 'search'],
-        ['title' => 'Wage Calculation', 'desc' => 'Accurate calculation of PF and ESIC liabilities.', 'icon' => 'file-text'],
-        ['title' => 'ECR & Challan Prep', 'desc' => 'Preparing the Electronic Challan cum Return (ECR).', 'icon' => 'edit-3'],
-        ['title' => 'Portal Filing', 'desc' => 'Uploading data to EPFO and ESIC portals.', 'icon' => 'upload-cloud'],
-        ['title' => 'Payment Generation', 'desc' => 'Generating final payment challans for the bank.', 'icon' => 'shield'],
-        ['title' => 'Filing Receipt Delivery', 'desc' => 'Delivering official filing acknowledgements.', 'icon' => 'check-circle']
-    ],
+
     'epfo-esic-claims' => [
         ['title' => 'Eligibility Check', 'desc' => 'Checking claim eligibility and PF balance.', 'icon' => 'search'],
         ['title' => 'KYC & Aadhaar Linking', 'desc' => 'Updating KYC, PAN, and Aadhaar in the UAN portal.', 'icon' => 'user-check'],
@@ -153,14 +138,7 @@ $all_inclusions = [
         ['title' => 'Claim Form Filing', 'desc' => 'Filing Forms 19, 31, 10C, or 10D as applicable.', 'icon' => 'upload-cloud'],
         ['title' => 'Status Tracking', 'desc' => 'Tracking the claim until funds are disbursed.', 'icon' => 'check-circle']
     ],
-    'gst-returns' => [
-        ['title' => 'Sales & Purchase Review', 'desc' => 'Reconciling monthly B2B and B2C invoices.', 'icon' => 'search'],
-        ['title' => 'ITC Reconciliation', 'desc' => 'Matching GSTR-2B for Input Tax Credit claims.', 'icon' => 'file-text'],
-        ['title' => 'GSTR-1 Preparation', 'desc' => 'Drafting outward supplies return.', 'icon' => 'edit-3'],
-        ['title' => 'GSTR-3B Drafting', 'desc' => 'Drafting the monthly tax liability return.', 'icon' => 'edit-3'],
-        ['title' => 'Client Approval', 'desc' => 'Reviewing tax liability with the client before filing.', 'icon' => 'user-check'],
-        ['title' => 'Portal Filing', 'desc' => 'Official submission to the GST portal.', 'icon' => 'check-circle']
-    ],
+
     'it-returns' => [
         ['title' => 'Income Proofs Review', 'desc' => 'Reviewing Form 16, AIS, and bank statements.', 'icon' => 'search'],
         ['title' => 'Deduction Optimization', 'desc' => 'Maximizing tax savings under 80C, 80D, etc.', 'icon' => 'shield'],
@@ -204,29 +182,21 @@ $all_steps = [
         ['label' => 'Step 5', 'title' => 'Registration Completed', 'icon' => 'check-circle'],
         ['label' => 'Step 6', 'title' => 'Certificate Delivered', 'icon' => 'award']
     ],
-    'gst-registration' => [
-        ['label' => 'Step 1', 'title' => 'Submit Documents', 'icon' => 'upload'],
+    'employer-side' => [
+        ['label' => 'Step 1', 'title' => 'Submit Required Documents', 'icon' => 'upload'],
         ['label' => 'Step 2', 'title' => 'Document Verification', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Application Preparation', 'icon' => 'file-text'],
-        ['label' => 'Step 4', 'title' => 'Submission to GST Portal', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 5', 'title' => 'Verification by GST Dept.', 'icon' => 'landmark'],
-        ['label' => 'Step 6', 'title' => 'GSTIN Issued', 'icon' => 'check-circle']
+        ['label' => 'Step 3', 'title' => 'EPFO & ESIC Registration', 'icon' => 'upload-cloud'],
+        ['label' => 'Step 4', 'title' => 'Employee Registration', 'icon' => 'user-check'],
+        ['label' => 'Step 5', 'title' => 'Monthly ECR & Challan', 'icon' => 'file-text'],
+        ['label' => 'Step 6', 'title' => 'Returns & Compliance', 'icon' => 'check-circle']
     ],
-    'esic-registration' => [
+    'gst-services' => [
         ['label' => 'Step 1', 'title' => 'Submit Documents', 'icon' => 'upload'],
-        ['label' => 'Step 2', 'title' => 'Document Verification', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Application Preparation', 'icon' => 'file-text'],
-        ['label' => 'Step 4', 'title' => 'Submission to ESIC Portal', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 5', 'title' => 'ESIC Verification', 'icon' => 'landmark'],
-        ['label' => 'Step 6', 'title' => 'ESIC Number Issued', 'icon' => 'check-circle']
-    ],
-    'epfo-registration' => [
-        ['label' => 'Step 1', 'title' => 'Submit Documents', 'icon' => 'upload'],
-        ['label' => 'Step 2', 'title' => 'Document Verification', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Application Preparation', 'icon' => 'file-text'],
-        ['label' => 'Step 4', 'title' => 'Registration Submission', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 5', 'title' => 'Registration Completed', 'icon' => 'check-circle'],
-        ['label' => 'Step 6', 'title' => 'Certificate Delivered', 'icon' => 'award']
+        ['label' => 'Step 2', 'title' => 'Portal Registration', 'icon' => 'upload-cloud'],
+        ['label' => 'Step 3', 'title' => 'GSTIN Issued', 'icon' => 'check-circle'],
+        ['label' => 'Step 4', 'title' => 'Provide Invoices', 'icon' => 'file-text'],
+        ['label' => 'Step 5', 'title' => 'Draft Returns', 'icon' => 'edit-3'],
+        ['label' => 'Step 6', 'title' => 'Final Submission', 'icon' => 'award']
     ],
     'labour-license' => [
         ['label' => 'Step 1', 'title' => 'Submit Documents', 'icon' => 'upload'],
@@ -269,12 +239,13 @@ $all_steps = [
         ['label' => 'Step 6', 'title' => 'Status Tracking', 'icon' => 'check-circle']
     ],
     'gem-registration' => [
-        ['label' => 'Step 1', 'title' => 'Submit Required Docs', 'icon' => 'upload'],
+        ['label' => 'Step 1', 'title' => 'Submit Required Documents', 'icon' => 'upload'],
         ['label' => 'Step 2', 'title' => 'Document Verification', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Portal setup & Verification', 'icon' => 'key'],
+        ['label' => 'Step 3', 'title' => 'GeM Registration', 'icon' => 'upload-cloud'],
         ['label' => 'Step 4', 'title' => '100% Profile Setup', 'icon' => 'user-check'],
-        ['label' => 'Step 5', 'title' => 'Catalogue Creation', 'icon' => 'edit-3'],
-        ['label' => 'Step 6', 'title' => 'Bid Participation & Sell', 'icon' => 'check-circle']
+        ['label' => 'Step 5', 'title' => 'Catalogue Upload', 'icon' => 'file-text'],
+        ['label' => 'Step 6', 'title' => 'Portal Approval', 'icon' => 'check-circle'],
+        ['label' => 'Step 7', 'title' => 'Start Selling & Bids', 'icon' => 'award']
     ],
     'central-eprocurement' => [
         ['label' => 'Step 1', 'title' => 'Tender ID & Eligibility', 'icon' => 'search'],
@@ -300,30 +271,16 @@ $all_steps = [
         ['label' => 'Step 5', 'title' => 'Approval Process', 'icon' => 'search'],
         ['label' => 'Step 6', 'title' => 'Completion', 'icon' => 'check-circle']
     ],
-    'epfo-esic-returns' => [
-        ['label' => 'Step 1', 'title' => 'Provide Monthly Data', 'icon' => 'upload'],
-        ['label' => 'Step 2', 'title' => 'Data Verification', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Challan Creation', 'icon' => 'edit-3'],
-        ['label' => 'Step 4', 'title' => 'Portal Submission', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 5', 'title' => 'Tax Payment', 'icon' => 'landmark'],
-        ['label' => 'Step 6', 'title' => 'Receipt Generated', 'icon' => 'check-circle']
-    ],
+
     'epfo-esic-claims' => [
-        ['label' => 'Step 1', 'title' => 'Submit Details', 'icon' => 'upload'],
-        ['label' => 'Step 2', 'title' => 'KYC & UAN Setup', 'icon' => 'key'],
-        ['label' => 'Step 3', 'title' => 'E-Nomination', 'icon' => 'user-check'],
-        ['label' => 'Step 4', 'title' => 'Claim Submission', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 5', 'title' => 'Dept Processing', 'icon' => 'search'],
-        ['label' => 'Step 6', 'title' => 'Claim Settled', 'icon' => 'check-circle']
+        ['label' => 'Step 1', 'title' => 'Submit Required Documents', 'icon' => 'upload'],
+        ['label' => 'Step 2', 'title' => 'Document Verification', 'icon' => 'search'],
+        ['label' => 'Step 3', 'title' => 'Application / Claim Preparation', 'icon' => 'file-text'],
+        ['label' => 'Step 4', 'title' => 'Online Submission', 'icon' => 'upload-cloud'],
+        ['label' => 'Step 5', 'title' => 'Claim / Application Status Tracking', 'icon' => 'search'],
+        ['label' => 'Step 6', 'title' => 'Approval & End-to-End Support', 'icon' => 'check-circle']
     ],
-    'gst-returns' => [
-        ['label' => 'Step 1', 'title' => 'Provide Invoices', 'icon' => 'upload'],
-        ['label' => 'Step 2', 'title' => 'Data Reconciliation', 'icon' => 'search'],
-        ['label' => 'Step 3', 'title' => 'Draft Returns', 'icon' => 'edit-3'],
-        ['label' => 'Step 4', 'title' => 'Review & Approve', 'icon' => 'user-check'],
-        ['label' => 'Step 5', 'title' => 'Final Submission', 'icon' => 'upload-cloud'],
-        ['label' => 'Step 6', 'title' => 'Acknowledgement', 'icon' => 'check-circle']
-    ],
+
     'it-returns' => [
         ['label' => 'Step 1', 'title' => 'Submit Income Proofs', 'icon' => 'upload'],
         ['label' => 'Step 2', 'title' => 'Data Verification', 'icon' => 'search'],
@@ -461,11 +418,12 @@ $all_faqs = [
         ['q' => 'What documents are required?', 'a' => 'PAN, Aadhaar of all members, an AOP deed, and proof of address.'],
         ['q' => 'Do you draft the AOP Deed?', 'a' => 'Yes, we professionally draft the AOP agreement based on your objectives.']
     ],
-    'epfo-esic-returns' => [
-        ['q' => 'When should EPF & ESIC returns be filed?', 'a' => 'The monthly contribution (ECR/Challan) must be paid on or before the 15th of the following month.'],
-        ['q' => 'What data do you need?', 'a' => 'We need your monthly attendance records, wages, and new joiner/leaver details.'],
-        ['q' => 'Are there late fees?', 'a' => 'Yes, delayed payments attract damages and interest under EPF and ESIC acts.'],
-        ['q' => 'Do you provide the final challan?', 'a' => 'Yes, we generate the final TRRN/Challan for you to make the payment.']
+    'employer-side' => [
+        ['q' => 'Which EPFO employer services do you provide?', 'a' => 'We provide EPFO registration, UAN generation, KYC approval, ECR preparation, Form V upload, challan generation, DSC approval, profile updates, joint declarations, and employer compliance support.'],
+        ['q' => 'Which ESIC employer services do you provide?', 'a' => 'We provide ESIC employer registration, employee registration, IP generation, employee addition/exit, wage updates, contribution preparation, challan generation, and employer portal support.'],
+        ['q' => 'Do you provide monthly EPF & ESIC return services?', 'a' => 'Yes. We prepare monthly EPF ECRs, ESIC contributions, challans, statutory returns, and provide complete compliance support.'],
+        ['q' => 'Can you help with employer profile updates and corrections?', 'a' => 'Yes. We assist with establishment profile updates, employee data corrections, UAN/KYC updates, joint declarations, and other employer-related changes.'],
+        ['q' => 'Do you provide complete employer compliance support?', 'a' => 'Yes. We provide end-to-end EPFO & ESIC employer compliance services, from registration to monthly filings, employee management, and statutory support.']
     ],
     'epfo-esic-claims' => [
         ['q' => 'Why is my PF withdrawal rejected?', 'a' => 'Rejections often happen due to name mismatch, KYC issues, or missing e-nomination. We help resolve these.'],
@@ -473,7 +431,7 @@ $all_faqs = [
         ['q' => 'How many days does a PF claim take?', 'a' => 'Online claims typically take 3 to 10 working days for the amount to be credited.'],
         ['q' => 'Can I withdraw my pension amount (10C)?', 'a' => 'Yes, if your service is less than 9.5 years and you have left the job for more than 2 months.']
     ],
-    'gst-returns' => [
+    'gst-services' => [
         ['q' => 'What are GSTR-1 and GSTR-3B?', 'a' => 'GSTR-1 is the return of outward supplies (sales), and GSTR-3B is the summary return of tax liability and ITC.'],
         ['q' => 'What happens if we file GST late?', 'a' => 'Late filing attracts a penalty of ₹50 per day (₹20 for NIL returns) plus interest on tax due.'],
         ['q' => 'How do you claim Input Tax Credit?', 'a' => 'We reconcile your purchases with GSTR-2B to ensure you get the maximum eligible ITC.'],
@@ -671,6 +629,13 @@ $faqs = $all_faqs[$service_id] ?? [
                 <!-- 2. Service Includes Section -->
                 <div class="srv-content-box">
                     <h2>2. Service Includes</h2>
+                    <?php if ($service_id === 'epfo-esic-claims'): ?>
+                        <?php include 'includes/epfo-esic-claims-inclusions.php'; ?>
+                    <?php elseif ($service_id === 'employer-side'): ?>
+                        <?php include 'includes/employer-side-inclusions.php'; ?>
+                    <?php elseif ($service_id === 'gem-registration'): ?>
+                        <?php include 'includes/gem-registration-inclusions.php'; ?>
+                    <?php else: ?>
                     <div class="srv-inclusions-grid">
                         <?php foreach ($inclusions as $inc): ?>
                             <div class="srv-inclusion-item">
@@ -698,6 +663,7 @@ $faqs = $all_faqs[$service_id] ?? [
                             </div>
                         <?php endforeach; ?>
                     </div>
+                    <?php endif; ?>
                 </div>
 
                 <!-- 3. Process Section -->
@@ -737,7 +703,13 @@ $faqs = $all_faqs[$service_id] ?? [
                 <div class="srv-content-box">
                     <h2>4. Required Documents</h2>
                     
-                    <?php if ($service_id === 'gst-registration'): ?>
+                    <?php if ($service_id === 'epfo-esic-claims'): ?>
+                        <?php include 'includes/epfo-esic-claims-docs.php'; ?>
+                    <?php elseif ($service_id === 'employer-side'): ?>
+                        <?php include 'includes/employer-side-docs.php'; ?>
+                    <?php elseif ($service_id === 'gem-registration'): ?>
+                        <?php include 'includes/gem-registration-docs.php'; ?>
+                    <?php elseif ($service_id === 'gst-registration'): ?>
                         <!-- GST Custom 3-column documents layout -->
                         <div class="srv-docs-three-cols">
                             <!-- Proprietorship Column -->
@@ -1421,144 +1393,18 @@ $faqs = $all_faqs[$service_id] ?? [
                     <?php endif; ?>
                 </div>
 
+                <?php if ($service_id === 'epfo-esic-claims'): ?>
+                    <?php include 'includes/epfo-esic-claims-why.php'; ?>
+                <?php elseif ($service_id === 'employer-side'): ?>
+                    <?php include 'includes/employer-side-why.php'; ?>
+                <?php elseif ($service_id === 'gem-registration'): ?>
+                    <?php include 'includes/gem-registration-why.php'; ?>
+                <?php endif; ?>
+
                 <!-- 5. FAQ Section -->
                 <div class="srv-content-box">
                     <h2>5. Frequently Asked Questions</h2>
                     
-                    <?php if ($service_id === 'gst-registration' || $service_id === 'esic-registration' || $service_id === 'epfo-registration'): ?>
-                        <!-- Double Column FAQ accordion layout -->
-                        <div class="srv-faq-two-cols">
-                            <?php if ($service_id === 'gst-registration'): ?>
-                                <!-- Left Col FAQs -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What is GST Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>GST Registration is a process by which a business gets registered under the Goods and Services Tax (GST) law to obtain a unique 15-digit GSTIN.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Who should register under GST? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Any business supplying goods with a turnover exceeding ₹40 Lakhs (₹20 Lakhs for hill/special states) or services exceeding ₹20 Lakhs is required to register.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What are the benefits of GST Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>It legalizes your business, allows you to collect tax from customers, enables claiming of Input Tax Credit (ITC), and allows seamless interstate sales.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Is GST Registration mandatory? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, it is mandatory for businesses crossing the threshold limits or those engaged in e-commerce, interstate sales, or casual taxable operations.</p></div>
-                                    </div>
-                                </div>
-
-                                <!-- Right Col FAQs -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">How long does GST Registration take? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Usually takes 3 to 7 working days, depending on government clarification requests and department approval timelines.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Can you help in GST return filing also? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, we offer comprehensive monthly and quarterly GST returns filing (GSTR-1 & GSTR-3B) and reconciliation support services.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What documents are required for GST Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Typical requirements include PAN card, Aadhaar card, electricity bill of office address, cancelled cheque, and incorporation/firm deeds.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Can GST Registration be done online? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, the entire application process is fully digital and handled online by our tax specialists.</p></div>
-                                    </div>
-                                </div>
-                            <?php elseif ($service_id === 'esic-registration'): ?>
-                                <!-- Left Col FAQs (ESIC) -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What is ESIC Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Employee State Insurance Corporation (ESIC) registration is a social security scheme that provides medical, cash, and maternity benefits to employees.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Who needs ESIC Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Any establishment or factory employing 10 or more employees with wages up to a certain limit must register under ESIC.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What are the benefits of ESIC? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>It offers full medical care to employees and dependents, cash compensation during sickness, and maternity benefit for female employees.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What is the employee wage limit? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Currently, employees earning wages up to ₹21,000 per month (₹25,000 for persons with disabilities) are covered under the ESIC scheme.</p></div>
-                                    </div>
-                                </div>
-
-                                <!-- Right Col FAQs (ESIC) -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">How long does ESIC Registration take? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>The registration process is online and usually completed within 3 to 5 working days upon submitting accurate documents.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Can you help in ESIC renewal? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>ESIC registration is a one-time process and does not require annual renewal. However, monthly returns and compliance filings must be done regularly.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What happens if ESIC is not registered? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Establishments that fall under the criteria but fail to register may face heavy penalties, interest charges, and legal actions from the department.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Is online ESIC registration available? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, the registration is completely online. Our specialists will manage the filing, document verification, and portal setups.</p></div>
-                                    </div>
-                                </div>
-                            <?php else: ?>
-                                <!-- Left Col FAQs (EPFO) -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What is EPFO Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>EPFO registration is a process by which an establishment gets registered under the Employees Provident Fund Organization to provide retirement and pension benefits to its employees.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Who can apply for EPFO Registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Any establishment employing 20 or more persons is mandatorily required to register under EPFO. Voluntary registration is also possible for businesses with fewer employees.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Is EPFO Registration mandatory? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, registration is legally mandatory under the EPF Act for all covered business units once they touch the employee headcount threshold of 20.</p></div>
-                                    </div>
-                                </div>
-
-                                <!-- Right Col FAQs (EPFO) -->
-                                <div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">How long does EPFO Registration take? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>The application filing and code allocation usually take between 3 to 5 working days upon successfully verifying the required business setup papers.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">What documents are required? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Key documents include PAN of the business, Aadhaar and PAN of partners/directors, utility bill proof of office address, and employee salary sheets.</p></div>
-                                    </div>
-                                    <div style="height: 12px;"></div>
-                                    <div class="srv-faq-item">
-                                        <button class="srv-faq-trigger">Do you provide EPFO Login after registration? <span>+</span></button>
-                                        <div class="srv-faq-content"><p>Yes, upon successful registration, we hand over the official EPFO employer portal credentials (UAN setup & login) to your business managers.</p></div>
-                                    </div>
-                                </div>
-                            <?php endif; ?>
-                        </div>
-                    <?php else: ?>
                         <!-- Standard Single Column FAQ accordion layout -->
                         <div class="srv-faq-accordion">
                             <?php foreach ($faqs as $faq): ?>
@@ -1573,7 +1419,7 @@ $faqs = $all_faqs[$service_id] ?? [
                                 </div>
                             <?php endforeach; ?>
                         </div>
-                    <?php endif; ?>
+
                 </div>
 
                 <!-- 6. Bottom Contact Section -->
@@ -1614,7 +1460,7 @@ $faqs = $all_faqs[$service_id] ?? [
                         </div>
                     </div>
 
-                    <?php if ($service_id === 'gst-registration' || $service_id === 'esic-registration' || $service_id === 'epfo-registration'): ?>
+                    <?php if ($service_id === 'gst-services' || $service_id === 'employer-side'): ?>
                         <!-- footer mini badges bar -->
                         <div class="srv-desc-footer-bar">
                             <div class="srv-desc-footer-container">
@@ -1639,15 +1485,12 @@ $faqs = $all_faqs[$service_id] ?? [
 
                         <!-- bottom description container -->
                         <div class="srv-bottom-description-box">
-                            <?php if ($service_id === 'gst-registration'): ?>
-                                <h3>Description (GST Registration)</h3>
+                            <?php if ($service_id === 'gst-services'): ?>
+                                <h3>Description (GST Registration & Returns)</h3>
                                 <p>GST Registration is essential for businesses to collect taxes legally, claim Input Tax Credit and operate across India. It adds credibility to your business and ensures compliance with the GST laws.</p>
-                            <?php elseif ($service_id === 'esic-registration'): ?>
-                                <h3>Description (ESIC Registration)</h3>
-                                <p>ESIC Registration is mandatory for establishments employing 10 or more employees with wages up to the prescribed limit. It provides medical, sickness, maternity and cash benefits to employees and ensures compliance with the ESIC Act.</p>
-                            <?php else: ?>
-                                <h3>Description (EPFO Registration)</h3>
-                                <p>EPFO Registration is mandatory for establishments to provide social security benefits to employees. We help you complete the entire registration process quickly, accurately and in full compliance with EPFO guidelines.</p>
+                            <?php elseif ($service_id === 'employer-side'): ?>
+                                <h3>Description (EPFO & ESIC Employer Side)</h3>
+                                <p>EPFO and ESIC Registration is mandatory for eligible establishments to provide social security and medical benefits to employees. We help you complete the entire registration process quickly, accurately, and assist you in filing monthly compliance returns on the government portal.</p>
                             <?php endif; ?>
                         </div>
                     <?php endif; ?>

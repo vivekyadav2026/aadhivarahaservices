@@ -99,97 +99,43 @@ $services = [
             'a' => 'We provide Telangana Shops & Establishments Registration, Telangana Contract Labour Licence, and Central Government Contract Labour Licence (CLRA).'
         ]
     ],
-    'epfo-registration' => [
-        'title' => 'EPFO Registration',
-        'desc' => 'Mandatory establishment setup under the Employees Provident Fund Organization.',
-        'details' => 'EPFO Registration is mandatory for establishments to provide social security benefits to employees. We help you complete the entire registration process quickly, accurately and in full compliance with EPFO guidelines.',
+    'employer-side' => [
+        'title' => 'EPFO & ESIC Employer Services',
+        'desc' => 'Manage all your EPFO and ESIC employer compliance requirements in one place with Aadhivaraha Services. We provide complete assistance for EPFO & ESIC registration, employee onboarding, monthly statutory returns, compliance updates, Digital Signature (DSC) configuration, employer portal management, and labour law support.',
+        'details' => 'Our experienced team ensures accurate, timely, and hassle-free compliance services for proprietorships, partnership firms, companies, LLPs, trusts, societies, contractors, and all eligible establishments.',
         'icon' => '🏛️',
         'pricing' => '₹2,999 onwards',
-        'documents' => ['PAN of Company', 'Digital Signature (DSC)', 'Bank Cancelled Cheque', 'Employee Identity Proofs'],
-        'eligibility' => 'Businesses with 20 or more employees must register for EPFO compliance.',
-        'process' => '1. Setup on Shram Suvidha -> 2. File Verification -> 3. Generation of EPF Code Number',
-        'timeline' => '3 to 5 Working Days',
-        'faq' => [
-            'q' => 'Can small businesses voluntary register?',
-            'a' => 'Yes, companies with less than 20 workers can opt for voluntary EPFO registration.'
-        ]
-    ],
-    'esic-registration' => [
-        'title' => 'ESIC Registration',
-        'desc' => 'Legal compliance for your business. We help you register under ESIC quickly and hassle-free.',
-        'details' => 'ESIC Registration is mandatory for establishments employing 10 or more employees with wages up to the prescribed limit. It provides medical and cash benefits to employees and ensures compliance with ESIC Act.',
-        'icon' => '🏥',
-        'pricing' => '₹2,999 onwards',
-        'documents' => ['Company Registration Proof', 'PAN & TAN of Business', 'List of Employees with Wages', 'Cancelled Cheque'],
-        'eligibility' => 'Applicable to factories and shops with 10 or more employees earning under ₹21,000/month.',
-        'process' => '1. Online Application Form -> 2. Entity Details Upload -> 3. Issuance of 17-digit ESIC Code',
-        'timeline' => '3 to 5 Working Days',
-        'faq' => [
-            'q' => 'Is ESIC mandatory for all offices?',
-            'a' => 'It is mandatory once your active headcount exceeds the state threshold limit.'
-        ]
-    ],
-    'epfo-esic-returns' => [
-        'title' => 'EPFO & ESIC Returns',
-        'desc' => 'Monthly compliance filings, salary summaries, and payment challan allocations.',
-        'details' => 'File monthly ECRs (Electronic Challan cum Returns) and ESIC contributions accurately to avoid hefty regulatory penalties.',
-        'icon' => '💵',
-        'pricing' => '₹1,499 / Month onwards',
-        'documents' => ['Monthly Employee Wage Sheet', 'Active Attendance Register', 'Bank Transaction Details'],
-        'eligibility' => 'All businesses registered under EPFO and ESIC rules.',
-        'process' => '1. Data Compiling -> 2. Challan Allocation on Portal -> 3. Verification -> 4. Filing Receipt Output',
-        'timeline' => 'Filing done before 15th of every month',
-        'faq' => [
-            'q' => 'What is the due date for PF/ESI returns?',
-            'a' => 'Returns and payments must be completed by the 15th of the subsequent month.'
-        ]
+        'documents' => [],
+        'eligibility' => 'Businesses with 10/20 or more employees must register for ESIC/EPFO compliance.',
+        'process' => '1. Submit Required Documents -> 2. Document Verification -> 3. EPFO & ESIC Registration / Employer Code Creation -> 4. Employee Registration & UAN/IP Generation -> 5. Monthly ECR / ESIC Contribution & Challan Preparation -> 6. Returns Filing & Compliance Support',
+        'timeline' => 'Registration: 3-5 Days | Returns: 15th of every month',
+        'faq' => []
     ],
     'epfo-esic-claims' => [
-        'title' => 'EPFO & ESIC Claims, UAN Activation & E-Nomination',
-        'desc' => 'Settlement assistance for PF withdrawals, advances, pension claims, UAN activation, KYC updates, and E-nomination setups.',
-        'details' => 'Get complete assistance navigating PF claims (Forms 31, 19, 10C, 10D), ESIC medical claims, member UAN activation, Aadhaar/PAN linking, KYC updates, and digital e-nomination setups on the Unified Portal.',
+        'title' => 'EPFO & ESIC Member Services',
+        'desc' => 'Get complete assistance for all EPFO and ESIC employee/member-related services under one roof. We help employees with PF claims, pension claims, PF transfers, advances, UAN services, KYC updates, e-Nomination, profile corrections, ESIC benefits, and other statutory services.',
+        'details' => 'Our experienced team ensures a smooth, accurate, and hassle-free process while providing complete support from application submission to final approval.',
         'icon' => '⚖️',
         'pricing' => '₹499 onwards',
-        'documents' => [
-            'UAN & Password Details (if activated)',
-            'Aadhaar Card (Linked to active Mobile Number)',
-            'PAN Card',
-            'Member & Nominee Identity/Bank Details',
-            'Bank Cancelled Cheque / Passbook Photo'
-        ],
+        'documents' => [],
         'eligibility' => 'All active EPF member account holders or ESIC insured persons seeking claims or portal updates.',
-        'process' => '1. Profile Check & UAN Activation -> 2. KYC Linkage & E-Nomination Setup -> 3. Claim Form Filing & Submission -> 4. Status Tracking & Disbursal',
+        'process' => '1. Submit Required Documents -> 2. Document Verification -> 3. Application / Claim Preparation -> 4. Online Submission -> 5. Claim / Application Status Tracking -> 6. Approval & End-to-End Support',
         'timeline' => '2 to 10 Working Days',
         'faq' => [
             'q' => 'Is e-nomination mandatory for PF withdrawals?',
             'a' => 'Yes, EPFO portal guidelines now require an active e-nomination on file before processing online withdrawal claims.'
         ]
     ],
-    'gst-registration' => [
-        'title' => 'GST Registration',
-        'desc' => 'Apply for a Goods and Services Tax Identification Number (GSTIN) for businesses.',
-        'details' => 'Acquire your official GSTIN. We take care of submitting documents, resolving clarify queries, and obtaining the certificate.',
+    'gst-services' => [
+        'title' => 'GST Registration & Returns',
+        'desc' => 'Apply for a Goods and Services Tax Identification Number (GSTIN) and file monthly/quarterly tax returns.',
+        'details' => 'Acquire your official GSTIN and handle your tax filings smoothly. We take care of submitting documents, compiling your outward invoices, reviewing tax calculations, and filing correct returns.',
         'icon' => '💼',
         'pricing' => '₹2,499 onwards',
-        'documents' => ['PAN Card of Business', 'Owner Electricity Bill', 'Rent Agreement', 'Cancel Cheque / Statement'],
+        'documents' => ['PAN Card of Business', 'Owner Electricity Bill', 'Rent Agreement', 'Sales Register', 'Purchase Invoices', 'GSTR-2B Statement'],
         'eligibility' => 'Mandatory for businesses with turnover exceeding ₹40 Lakhs (Goods) or ₹20 Lakhs (Services).',
-        'process' => '1. Uploading Documents -> 2. Form Submission -> 3. ARN Generation -> 4. GSTIN Allotment',
-        'timeline' => '3 to 7 Working Days',
-        'faq' => [
-            'q' => 'Is physical presence required for GST setup?',
-            'a' => 'No, the entire process is conducted online by our advisors.'
-        ]
-    ],
-    'gst-returns' => [
-        'title' => 'GST Returns',
-        'desc' => 'Monthly and quarterly tax filing (GSTR-1, GSTR-3B) and Input Tax Credit reconciliation.',
-        'details' => 'Avoid penalty fees. We compile your outward invoices, review tax calculations, and file correct returns.',
-        'icon' => '📊',
-        'pricing' => '₹999 / Month onwards',
-        'documents' => ['Sales Register', 'Purchase Invoices', 'GSTR-2B Input Tax Credit Statement'],
-        'eligibility' => 'All businesses registered with an active GSTIN.',
-        'process' => '1. Reconcile Sales & Purchases -> 2. Draft GSTR-1 & 3B -> 3. Client Review -> 4. Final Submission',
-        'timeline' => 'Due monthly on the 11th, 20th, or 24th',
+        'process' => '1. GSTIN Allotment -> 2. Reconcile Sales & Purchases -> 3. Draft GSTR-1 & 3B -> 4. Final Submission',
+        'timeline' => 'Setup: 3-7 Days | Returns: Monthly',
         'faq' => [
             'q' => 'What happens if we file late?',
             'a' => 'A daily late fee and interest on unpaid tax liabilities will be applied by the GST department.'
@@ -321,19 +267,16 @@ $services = [
         ]
     ],
     'gem-registration' => [
-        'title' => 'GeM Seller Registration Services',
-        'desc' => 'Complete assistance for GeM registration, 100% profile completion, catalogue creation, brand/OEM support, and bid participation.',
-        'details' => 'Start and grow your Government business through the Government e-Marketplace (GeM) Portal. We assist with registration, profile completion, product/service listings, OEM/Brand approvals, bidding, and account order management.',
+        'title' => 'GeM (Government e-Marketplace) Seller Registration Services',
+        'desc' => 'Start and grow your Government business through the Government e-Marketplace (GeM) Portal. We provide complete assistance for GeM Seller Registration, 100% Seller Profile Completion, Product & Service Catalogue Creation, OEM/Brand support, bid participation, profile management, and portal compliance.',
+        'details' => 'Our team ensures a smooth, accurate, and hassle-free registration process, helping your business become fully ready to participate in Government procurement opportunities.',
         'icon' => '🛒',
         'pricing' => '₹4,999 onwards',
-        'documents' => ['PAN Card', 'Aadhaar Card', 'GST Registration', 'Udyam / MSME Certificate', 'Cancelled Cheque', 'Class 3 DSC', 'ITR (If applicable)', 'Brand / OEM Details'],
+        'documents' => [],
         'eligibility' => 'Proprietorships, Partnerships, LLPs, Companies, OEMs, traders, and service providers.',
-        'process' => '1. Document Verification -> 2. Registration & Verification -> 3. 100% Profile Setup -> 4. Create & Upload Catalogues -> 5. Final Approval & Bid Alerts',
+        'process' => '1. Submit Required Documents -> 2. Document Verification -> 3. GeM Seller Registration & Business Verification -> 4. Complete 100% GeM Seller Profile Setup -> 5. Create & Upload Product / Service Catalogue -> 6. Portal Verification & Approval -> 7. Start Selling & Participate in GeM Bids',
         'timeline' => '5 to 7 Working Days',
-        'faq' => [
-            'q' => 'What is GeM?',
-            'a' => 'GeM (Government e-Marketplace) is the Government of India\'s official online procurement portal where Government departments purchase products and services from registered sellers.'
-        ]
+        'faq' => []
     ],
     'job-assistance' => [
         'title' => 'Government Application Services',
@@ -365,21 +308,7 @@ $services = [
             'a' => 'We prepare Government and Private sector bills, including outsourcing, manpower, security, housekeeping, electrical, civil construction, service, supply, RA bills, and final bills.'
         ]
     ],
-    'freelance-epf-esic' => [
-        'title' => 'Freelance EPF and ESIC Suggestions',
-        'desc' => 'Strategic advisory and suggestions on employee compliance laws.',
-        'details' => 'Navigate notices, structure wage calculations, and get expert suggestions as a freelancer or employer.',
-        'icon' => '💡',
-        'pricing' => '',
-        'documents' => ['Past compliance records', 'Payroll registers'],
-        'eligibility' => 'Any employer or freelancer seeking advisory on worker social welfare acts.',
-        'process' => '1. Initial review -> 2. Problem identification -> 3. Suggestion delivery',
-        'timeline' => 'Case-to-Case basis',
-        'faq' => [
-            'q' => 'Do you provide actionable solutions?',
-            'a' => 'Yes, we provide step-by-step suggestions to resolve your compliance issues.'
-        ]
-    ],
+
     'job-works' => [
         'title' => 'Telugu & English Typing, DTP, Xerox & Digital Documentation Services',
         'desc' => 'Fast, accurate, and professional Telugu & English typing, DTP, printing, scanning, lamination, and digital documentation services for all your needs.',
@@ -567,9 +496,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                     <div class="footer-links-col">
                         <h4 class="footer-col-heading"><span class="footer-heading-dot"></span>Our Services</h4>
                         <ul class="footer-nav-list">
-                            <li><a href="index.php?page=service-details&id=epfo-registration">EPFO Registration</a></li>
-                            <li><a href="index.php?page=service-details&id=esic-registration">ESIC Registration</a></li>
-                            <li><a href="index.php?page=service-details&id=gst-registration">GST Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=employer-side">EMPLOYER SIDE</a></li>
+                            <li><a href="index.php?page=service-details&id=gst-services">GST Registration & Returns</a></li>
                             <li><a href="index.php?page=service-details&id=firm-registration">Firm Registration</a></li>
                             <li><a href="index.php?page=service-details&id=digital-signature">Digital Signature (DSC)</a></li>
                             <li><a href="index.php?page=service-details&id=gem-registration">GeM Registration</a></li>

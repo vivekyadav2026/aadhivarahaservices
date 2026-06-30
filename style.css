@@ -3421,18 +3421,25 @@ textarea.contact-form-control {
 
 .abt-hero-img-mask {
   width: 100%;
-  max-width: 480px;
+  max-width: 600px;
   aspect-ratio: 1;
-  border-radius: 50% 50% 0 50%;
-  overflow: hidden;
-  border: 8px solid #eff6ff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  border: 25px solid transparent;
+  border-top-color: var(--color-accent);
+  border-left-color: var(--color-accent);
+  border-bottom-color: var(--color-primary);
+  transform: rotate(-10deg);
+  margin-right: -10%; /* to shift it slightly off-screen like the design */
+  box-sizing: content-box;
 }
 
 .abt-hero-img-mask img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 50%;
+  transform: rotate(10deg) scale(1.02); /* un-rotate the image inside */
+  display: block;
 }
 
 /* Our Story */

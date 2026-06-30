@@ -46,29 +46,59 @@
                 <div id="employee-services" class="tab-pane">
                     <h2 class="section-title" style="font-size: 28px; margin-bottom: 24px;">Employee Side <span>Services</span></h2>
                     
-                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Employee Side EPF Services We Provide</h3>
+                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Our EPFO Member Services Include</h3>
                     <ul class="list-docs" style="margin-bottom: 30px; list-style-type: none; margin-left: 0;">
-                        <li style="margin-bottom: 8px;">1. UAN activation and password reset support</li>
-                        <li style="margin-bottom: 8px;">2. KYC update support – Aadhaar, PAN, Bank</li>
-                        <li style="margin-bottom: 8px;">3. EPF claim support – Form 19, 10C, 31</li>
-                        <li style="margin-bottom: 8px;">4. PF transfer support – Form 13</li>
-                        <li style="margin-bottom: 8px;">5. Pension claim support – Form 10D</li>
-                        <li style="margin-bottom: 8px;">6. EDLI death claim support – Form 5IF</li>
-                        <li style="margin-bottom: 8px;">7. Joint declaration and member details correction support</li>
-                        <li style="margin-bottom: 8px;">8. Service history / DOJ / DOE correction guidance</li>
-                        <li style="margin-bottom: 8px;">9. EPFO grievance filing support</li>
-                        <li style="margin-bottom: 8px;">10. PF passbook and claim status checking support</li>
+                        <li style="margin-bottom: 8px;">1. EPFO Claims & Member Services</li>
+                        <li style="margin-bottom: 8px;">2. Form 31 (PF Advance Claim)</li>
+                        <li style="margin-bottom: 8px;">3. Form 19 (Final PF Settlement)</li>
+                        <li style="margin-bottom: 8px;">4. Form 10C (Withdrawal Benefit)</li>
+                        <li style="margin-bottom: 8px;">5. Form 10D (Monthly Pension Claim)</li>
+                        <li style="margin-bottom: 8px;">6. Form 13 (PF Transfer Claim)</li>
+                        <li style="margin-bottom: 8px;">7. Joint Declaration</li>
+                        <li style="margin-bottom: 8px;">8. UAN Activation</li>
+                        <li style="margin-bottom: 8px;">9. UAN KYC Update & Approval</li>
+                        <li style="margin-bottom: 8px;">10. e-Nomination Registration / Update</li>
+                        <li style="margin-bottom: 8px;">11. Name Correction</li>
+                        <li style="margin-bottom: 8px;">12. Date of Birth Correction</li>
+                        <li style="margin-bottom: 8px;">13. Father's / Husband's Name Correction</li>
+                        <li style="margin-bottom: 8px;">14. Gender Correction</li>
+                        <li style="margin-bottom: 8px;">15. Aadhaar Linking</li>
+                        <li style="margin-bottom: 8px;">16. PAN Linking</li>
+                        <li style="margin-bottom: 8px;">17. Bank Account Update</li>
+                        <li style="margin-bottom: 8px;">18. Mobile Number & Email ID Update</li>
+                        <li style="margin-bottom: 8px;">19. Member Profile Correction</li>
+                        <li style="margin-bottom: 8px;">20. Date of Joining / Date of Exit Correction</li>
+                        <li style="margin-bottom: 8px;">21. Claim Status Verification</li>
+                        <li style="margin-bottom: 8px;">22. Claim Rejection Guidance</li>
+                        <li style="margin-bottom: 8px;">23. EDLI Claim Assistance</li>
+                        <li style="margin-bottom: 8px;">24. Death Claim Assistance</li>
+                        <li style="margin-bottom: 8px;">25. Pension Related Assistance</li>
+                        <li style="margin-bottom: 8px;">26. EPFO Grievance Support</li>
+                        <li style="margin-bottom: 8px;">27. End-to-End EPFO Member Assistance</li>
                     </ul>
 
-                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Employee Side ESIC Services We Provide</h3>
+                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Our ESIC Member Services Include</h3>
                     <ul class="list-docs" style="margin-bottom: 30px; list-style-type: none; margin-left: 0;">
-                        <li style="margin-bottom: 8px;">1. ESIC IP number checking support</li>
-                        <li style="margin-bottom: 8px;">2. ESIC Pehchan card / e-card download support</li>
-                        <li style="margin-bottom: 8px;">3. Employee and family details update guidance</li>
-                        <li style="margin-bottom: 8px;">4. ESIC medical benefit guidance</li>
-                        <li style="margin-bottom: 8px;">5. Sickness, maternity, accident and disablement benefit guidance</li>
-                        <li style="margin-bottom: 8px;">6. ESIC claim status support</li>
-                        <li style="margin-bottom: 8px;">7. Employer coordination support for ESIC issues</li>
+                        <li style="margin-bottom: 8px;">1. ESIC Employee & Beneficiary Services</li>
+                        <li style="margin-bottom: 8px;">2. ESIC TIC (Temporary Identity Certificate)</li>
+                        <li style="margin-bottom: 8px;">3. Pehchan Card Assistance</li>
+                        <li style="margin-bottom: 8px;">4. IP Number Verification</li>
+                        <li style="margin-bottom: 8px;">5. Family Member Addition</li>
+                        <li style="margin-bottom: 8px;">6. Family Member Deletion</li>
+                        <li style="margin-bottom: 8px;">7. Name Correction</li>
+                        <li style="margin-bottom: 8px;">8. Date of Birth Correction</li>
+                        <li style="margin-bottom: 8px;">9. Dispensary Change</li>
+                        <li style="margin-bottom: 8px;">10. Employer Change Support</li>
+                        <li style="margin-bottom: 8px;">11. Mobile Number Update</li>
+                        <li style="margin-bottom: 8px;">12. ESIC Benefit Guidance</li>
+                        <li style="margin-bottom: 8px;">13. Sickness Benefit Assistance</li>
+                        <li style="margin-bottom: 8px;">14. Maternity Benefit Assistance</li>
+                        <li style="margin-bottom: 8px;">15. Temporary Disablement Benefit (TDB) Guidance</li>
+                        <li style="margin-bottom: 8px;">16. Permanent Disablement Benefit (PDB) Guidance</li>
+                        <li style="margin-bottom: 8px;">17. Dependants' Benefit Assistance</li>
+                        <li style="margin-bottom: 8px;">18. Funeral Expenses Claim Guidance</li>
+                        <li style="margin-bottom: 8px;">19. ESIC Portal Assistance</li>
+                        <li style="margin-bottom: 8px;">20. End-to-End ESIC Member Assistance</li>
                     </ul>
                     
                     <div style="margin-top: 30px;">
@@ -80,31 +110,53 @@
                 <div id="employer-services" class="tab-pane">
                     <h2 class="section-title" style="font-size: 28px; margin-bottom: 24px;">Employer Side <span>Services</span></h2>
                     
-                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Employer Side EPF Services We Provide</h3>
+                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Our EPFO Employer Services Include</h3>
                     <ul class="list-docs" style="margin-bottom: 30px; list-style-type: none; margin-left: 0;">
-                        <li style="margin-bottom: 8px;">1. New EPF establishment registration support</li>
-                        <li style="margin-bottom: 8px;">2. Employee UAN generation and member registration</li>
-                        <li style="margin-bottom: 8px;">3. Monthly EPF ECR preparation and filing</li>
-                        <li style="margin-bottom: 8px;">4. EPF challan generation and payment support</li>
-                        <li style="margin-bottom: 8px;">5. Employee KYC approval support</li>
-                        <li style="margin-bottom: 8px;">6. Date of joining and date of exit update support</li>
-                        <li style="margin-bottom: 8px;">7. EPF compliance documents and registers support</li>
-                        <li style="margin-bottom: 8px;">8. EPFO inspection and notice reply support</li>
-                        <li style="margin-bottom: 8px;">9. PF transfer and claim employer approval support</li>
-                        <li style="margin-bottom: 8px;">10. EPFO portal support and employer login guidance</li>
+                        <li style="margin-bottom: 8px;">1. EPFO Registration & Compliance</li>
+                        <li style="margin-bottom: 8px;">2. New EPFO Establishment Registration</li>
+                        <li style="margin-bottom: 8px;">3. Establishment Profile Update</li>
+                        <li style="margin-bottom: 8px;">4. Employee UAN Generation</li>
+                        <li style="margin-bottom: 8px;">5. Employee KYC Approval</li>
+                        <li style="margin-bottom: 8px;">6. UAN Activation Support</li>
+                        <li style="margin-bottom: 8px;">7. Date of Joining (DOJ) Update</li>
+                        <li style="margin-bottom: 8px;">8. Date of Exit (DOE) Update</li>
+                        <li style="margin-bottom: 8px;">9. Joint Declaration</li>
+                        <li style="margin-bottom: 8px;">10. Break in Service Correction</li>
+                        <li style="margin-bottom: 8px;">11. Basic Details Correction</li>
+                        <li style="margin-bottom: 8px;">12. EPFO Member ID Mapping</li>
+                        <li style="margin-bottom: 8px;">13. EPFO Monthly ECR Preparation</li>
+                        <li style="margin-bottom: 8px;">14. EPF Returns Filing</li>
+                        <li style="margin-bottom: 8px;">15. Form V Preparation & Upload</li>
+                        <li style="margin-bottom: 8px;">16. Challan Generation</li>
+                        <li style="margin-bottom: 8px;">17. Wage Verification</li>
+                        <li style="margin-bottom: 8px;">18. Digital Signature (DSC) Registration</li>
+                        <li style="margin-bottom: 8px;">19. DSC Approval / Reset / Renewal</li>
+                        <li style="margin-bottom: 8px;">20. Employer Portal Management</li>
+                        <li style="margin-bottom: 8px;">21. Compliance Support</li>
+                        <li style="margin-bottom: 8px;">22. EPFO Notice Guidance</li>
+                        <li style="margin-bottom: 8px;">23. End-to-End EPFO Employer Assistance</li>
                     </ul>
 
-                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Employer Side ESIC Services We Provide</h3>
+                    <h3 style="margin-top: 20px; margin-bottom: 15px; color: var(--color-primary); font-size: 20px;">Our ESIC Employer Services Include</h3>
                     <ul class="list-docs" style="margin-bottom: 30px; list-style-type: none; margin-left: 0;">
-                        <li style="margin-bottom: 8px;">1. New ESIC establishment registration support</li>
-                        <li style="margin-bottom: 8px;">2. Employee IP registration and family details update</li>
-                        <li style="margin-bottom: 8px;">3. Monthly ESIC contribution filing support</li>
-                        <li style="margin-bottom: 8px;">4. ESIC challan generation and payment support</li>
-                        <li style="margin-bottom: 8px;">5. Employee addition and exit support</li>
-                        <li style="margin-bottom: 8px;">6. ESIC accident report and claim guidance</li>
-                        <li style="margin-bottom: 8px;">7. ESIC inspection and notice reply support</li>
-                        <li style="margin-bottom: 8px;">8. ESIC compliance records and registers support</li>
-                        <li style="margin-bottom: 8px;">9. Employer portal support and login guidance</li>
+                        <li style="margin-bottom: 8px;">1. ESIC Registration & Compliance</li>
+                        <li style="margin-bottom: 8px;">2. New ESIC Employer Registration</li>
+                        <li style="margin-bottom: 8px;">3. Employee (IP) Registration</li>
+                        <li style="margin-bottom: 8px;">4. Employer Code Registration</li>
+                        <li style="margin-bottom: 8px;">5. Employee Addition</li>
+                        <li style="margin-bottom: 8px;">6. Employee Exit</li>
+                        <li style="margin-bottom: 8px;">7. Wage Details Update</li>
+                        <li style="margin-bottom: 8px;">8. Branch Office Addition</li>
+                        <li style="margin-bottom: 8px;">9. Employer Profile Update</li>
+                        <li style="margin-bottom: 8px;">10. Monthly ESIC Contribution Preparation</li>
+                        <li style="margin-bottom: 8px;">11. ESIC Returns Support</li>
+                        <li style="margin-bottom: 8px;">12. Challan Generation</li>
+                        <li style="margin-bottom: 8px;">13. TIC (Temporary Identity Certificate) Support</li>
+                        <li style="margin-bottom: 8px;">14. Employer Portal Management</li>
+                        <li style="margin-bottom: 8px;">15. Accident Report Guidance</li>
+                        <li style="margin-bottom: 8px;">16. Compliance Support</li>
+                        <li style="margin-bottom: 8px;">17. Employer Information Update</li>
+                        <li style="margin-bottom: 8px;">18. End-to-End ESIC Employer Assistance</li>
                     </ul>
                     
                     <div style="margin-top: 30px;">
