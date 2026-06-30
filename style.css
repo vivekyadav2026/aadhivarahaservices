@@ -3326,120 +3326,208 @@ textarea.contact-form-control {
 
 .abt-hero-section {
   background: #ffffff;
-  padding: 60px 0;
+  padding: 40px 0 60px;
   overflow: hidden;
+  position: relative;
+}
+
+/* Premium gradient glow in the background */
+.abt-hero-section::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 70%;
+  height: 160%;
+  background: radial-gradient(circle, rgba(255, 107, 0, 0.04) 0%, rgba(21, 28, 61, 0.02) 40%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .abt-hero-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 80px;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .abt-hero-left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 28px;
 }
 
 .abt-hero-tag {
+  display: inline-block;
   color: var(--color-accent);
   font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 10px;
+}
+
+.abt-hero-tag::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 2px;
+  background-color: var(--color-accent);
 }
 
 .abt-hero-left h1 {
-  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-size: clamp(2.5rem, 4vw, 3.8rem);
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.1;
+  color: #0f172a;
+  letter-spacing: -1px;
+}
+
+.abt-hero-left h1 span {
   color: var(--color-primary);
 }
 
 .abt-hero-left p {
-  font-size: 15px;
-  color: var(--color-text);
-  line-height: 1.6;
+  font-size: 17px;
+  color: #475569;
+  line-height: 1.8;
+  max-width: 90%;
+  font-weight: 400;
 }
 
 .abt-badge-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  margin-top: 15px;
+  gap: 30px;
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #e2e8f0;
 }
 
 .abt-badge-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+/* Vertical separator line between stats, except last one */
+.abt-badge-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  background-color: #f1f5f9;
 }
 
 .abt-badge-circle {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background: rgba(21, 28, 61, 0.05);
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
-  font-size: 18px;
-  transition: var(--transition-smooth);
+  font-size: 20px;
+  background: #f8fafc !important;
+  color: var(--color-accent) !important;
+  transition: all 0.4s ease;
 }
 
 .abt-badge-item:hover .abt-badge-circle {
-  background: var(--color-accent);
-  color: #ffffff;
-  transform: translateY(-2px);
+  background: var(--color-primary) !important;
+  color: #ffffff !important;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(21, 28, 61, 0.1);
 }
 
 .abt-badge-item span {
-  font-size: 12px;
+  font-size: 28px;
   font-weight: 800;
-  color: var(--color-primary);
-  line-height: 1.2;
+  color: #0f172a;
+  line-height: 1;
+  letter-spacing: -0.5px;
 }
 
 .abt-badge-item small {
-  font-size: 10px;
-  font-weight: 600;
-  color: var(--color-text);
-  line-height: 1.2;
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+  line-height: 1.5;
 }
 
 .abt-hero-right {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
+/* Elegant framing and shadow for the image */
 .abt-hero-img-mask {
   width: 100%;
-  max-width: 600px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 25px solid transparent;
-  border-top-color: var(--color-accent);
-  border-left-color: var(--color-accent);
-  border-bottom-color: var(--color-primary);
-  transform: rotate(-10deg);
-  margin-right: -10%; /* to shift it slightly off-screen like the design */
-  box-sizing: content-box;
+  max-width: 520px;
+  aspect-ratio: 4/5;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
 }
 
 .abt-hero-img-mask img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
-  transform: rotate(10deg) scale(1.02); /* un-rotate the image inside */
   display: block;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.abt-hero-right:hover .abt-hero-img-mask img {
+  transform: scale(1.04);
+}
+
+/* Decorative architectural dot grid behind the image */
+.abt-hero-right::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -20px;
+  right: -20px;
+  background-image: radial-gradient(rgba(21, 28, 61, 0.2) 2px, transparent 2px);
+  background-size: 20px 20px;
+  z-index: 1;
+}
+
+/* An elegant offset background solid shape */
+.abt-hero-right::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 4/5;
+  border-radius: 12px;
+  bottom: -30px;
+  left: 20px;
+  background: var(--color-primary);
+  z-index: 0;
+  transition: transform 0.5s ease;
+}
+
+.abt-hero-right:hover::after {
+  transform: translate(10px, 10px);
 }
 
 /* Our Story */
