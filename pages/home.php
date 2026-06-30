@@ -146,19 +146,7 @@
                 <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">GeM Registration & Bid Participation</p>
             </a>
 
-            <!-- 9. Tender Support -->
-            <a href="index.php?page=service-details&id=central-eprocurement" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
-                <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">📄</div>
-                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">Tender Support</h3>
-                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">Telangana & Central e-Procurement Tenders</p>
-            </a>
 
-            <!-- 10. Xerox & DTP -->
-            <a href="index.php?page=service-details&id=job-works" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
-                <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">🖨️</div>
-                <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">Xerox & DTP</h3>
-                <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">Xerox, Printing, Scanning & Document Services</p>
-            </a>
         </div>
         
         <div style="text-align: center; margin-top: 50px;">

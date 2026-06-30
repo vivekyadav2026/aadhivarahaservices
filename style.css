@@ -1863,7 +1863,8 @@ section {
 }
 @media (max-width: 500px) {
   .popular-services-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 }
 
@@ -2419,6 +2420,13 @@ textarea.contact-form-control {
   }
   .benefit-separator {
     display: none;
+  }
+}
+@media (max-width: 550px) {
+  .benefits-bar-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
 }
 
