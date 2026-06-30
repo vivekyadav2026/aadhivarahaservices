@@ -31,25 +31,78 @@ $services = [
             'a' => 'Yes, many state registrars allow online file submission which we manage completely.'
         ]
     ],
-    'labour-license' => [
-        'title' => 'Labour License',
-        'desc' => 'Acquire state and central department labour licenses for contractors and enterprise sites.',
-        'details' => 'Obtain compliance certificates and official labor contractor licenses to hire contract employees legally.',
-        'icon' => '📋',
-        'pricing' => '₹5,499 onwards',
-        'documents' => ['Trade License', 'Partnership Deed / Incorporation Docs', 'PF/ESI Code Details', 'Contract Work Agreement'],
-        'eligibility' => 'Establishments employing 20 or more contract workers (thresholds vary by state).',
-        'process' => '1. Core Profile Setup -> 2. Upload of Forms -> 3. Challan Payment -> 4. License Allocation',
-        'timeline' => '12 to 15 Working Days',
+    'aop-registration' => [
+        'title' => 'Association of Persons (AOP) Registration',
+        'desc' => 'Official registration setup and legal agreement drafting for Association of Persons (AOP).',
+        'details' => 'Formalize your Association of Persons (AOP) registration. We handle agreement/deed drafting, PAN card application, DSC setup, and portal registrations in full compliance.',
+        'icon' => '👥',
+        'pricing' => '₹3,999 onwards',
+        'documents' => [
+            'PAN card of the AOP (if available) or PAN of all members',
+            'Aadhaar card of all members',
+            'Passport-size photographs of all members',
+            'Address proof of all members (Aadhaar, Voter ID, Passport, or Driving Licence)',
+            'Registered office address proof (Electricity/Water bill/Property tax receipt not older than 2–3 months)',
+            'Rent Agreement (if rented) & No Objection Certificate (NOC) from the property owner',
+            'AOP Agreement/Deed signed by all members',
+            'Bank account details (cancelled cheque or bank statement, if applicable)',
+            'Mobile number and email ID of the authorized representative',
+            'Digital Signature Certificate (DSC) of the authorized signatory',
+            'Additional documents required for GST, PAN, or other statutory registrations'
+        ],
+        'eligibility' => 'Minimum of 2 members required to form an Association of Persons (AOP) in India.',
+        'process' => '1. Deed & Agreement Drafting -> 2. DSC Setup -> 3. PAN Application -> 4. Portal Registration',
+        'timeline' => '5 to 7 Working Days',
         'faq' => [
-            'q' => 'How long is the license valid?',
-            'a' => 'Typically valid for one year, requiring renewal before the anniversary date.'
+            'q' => 'Is a written deed mandatory for AOP?',
+            'a' => 'Yes, a written AOP Deed is practically mandatory for opening bank accounts, obtaining PAN, and completing tax filings.'
+        ]
+    ],
+    'fssai-registration' => [
+        'title' => 'FSSAI Food License Registration',
+        'desc' => 'Obtain FSSAI food safety registration or state/central licenses for food businesses.',
+        'details' => 'Secure your FSSAI Food Safety License. We manage document organization, product classification checks, portal filing, and government coordination for restaurants, manufacturers, traders, and food handlers.',
+        'icon' => '🍏',
+        'pricing' => '₹1,999 onwards',
+        'documents' => [
+            'Passport-size photograph of the applicant',
+            'Identity Proof (Aadhaar Card, PAN Card, Voter ID, or Passport)',
+            'Registered office address proof (Electricity Bill or Property Tax Receipt)',
+            'Rent Agreement & NOC from property owner (if rented premises)',
+            'List of food products / food categories to be handled',
+            'Business Constitution proof (Proprietor PAN, Partnership Deed, or CoI/MOA/AOA)',
+            'List of Directors/Partners with ID & Address proof',
+            'Authority Letter / Nomination of Authorized Signatory',
+            'GST Registration Certificate (if applicable)',
+            'Active Email ID and Mobile Number'
+        ],
+        'eligibility' => 'Mandatory for all Food Business Operators (FBOs) including manufacturers, traders, restaurants, and grocery shops.',
+        'process' => '1. Select Category & Turnover Check -> 2. Document Verification -> 3. Form Submission -> 4. FSSAI Code Allotted',
+        'timeline' => '5 to 7 Working Days',
+        'faq' => [
+            'q' => 'Who needs an FSSAI License?',
+            'a' => 'Any business handling, manufacturing, packaging, storing, or selling food products must register under FSSAI rules.'
+        ]
+    ],
+    'labour-license' => [
+        'title' => 'Labour License & Shops Registration',
+        'desc' => 'Telangana and Central Labour Licence & Shops & Establishments Registration compliance services.',
+        'details' => 'Stay compliant with Telangana and Central Labour Laws with our complete Labour Licence and Shops & Establishments Registration services. We assist with Telangana Shops & Establishments, Telangana Contract Labour, and Central Government CLRA licences.',
+        'icon' => '📋',
+        'pricing' => '₹3,999 onwards',
+        'documents' => ['PAN Card', 'Aadhaar Card', 'Business Address Proof', 'Telugu Name Board', 'Form V', 'Work Order / Agreement'],
+        'eligibility' => 'Businesses operating in Telangana or employing contract workers under CLRA.',
+        'process' => '1. Submit Docs -> 2. Verification -> 3. DTO Challan Prep -> 4. Online Application Filing -> 5. Licence Approval',
+        'timeline' => '5 to 7 Working Days',
+        'faq' => [
+            'q' => 'Which Labour Licence services do you provide?',
+            'a' => 'We provide Telangana Shops & Establishments Registration, Telangana Contract Labour Licence, and Central Government Contract Labour Licence (CLRA).'
         ]
     ],
     'epfo-registration' => [
         'title' => 'EPFO Registration',
         'desc' => 'Mandatory establishment setup under the Employees Provident Fund Organization.',
-        'details' => 'Get your corporate PF code to start contributing to your employees retirement security funds.',
+        'details' => 'EPFO Registration is mandatory for establishments to provide social security benefits to employees. We help you complete the entire registration process quickly, accurately and in full compliance with EPFO guidelines.',
         'icon' => '🏛️',
         'pricing' => '₹2,999 onwards',
         'documents' => ['PAN of Company', 'Digital Signature (DSC)', 'Bank Cancelled Cheque', 'Employee Identity Proofs'],
@@ -63,8 +116,8 @@ $services = [
     ],
     'esic-registration' => [
         'title' => 'ESIC Registration',
-        'desc' => 'Establishment code setup for the Employees State Insurance healthcare program.',
-        'details' => 'Register your business under the ESIC program to offer medical and sickness benefits to employees.',
+        'desc' => 'Legal compliance for your business. We help you register under ESIC quickly and hassle-free.',
+        'details' => 'ESIC Registration is mandatory for establishments employing 10 or more employees with wages up to the prescribed limit. It provides medical and cash benefits to employees and ensures compliance with ESIC Act.',
         'icon' => '🏥',
         'pricing' => '₹2,999 onwards',
         'documents' => ['Company Registration Proof', 'PAN & TAN of Business', 'List of Employees with Wages', 'Cancelled Cheque'],
@@ -91,49 +144,25 @@ $services = [
             'a' => 'Returns and payments must be completed by the 15th of the subsequent month.'
         ]
     ],
-    'epfo-e-nomination' => [
-        'title' => 'EPFO E-Nomination',
-        'desc' => 'Digital nominee declarations mapping on the Unified Member Portal.',
-        'details' => 'Ensure smooth passage of PF savings and pension schemes to the employee\'s family by submitting digital nominations.',
-        'icon' => '✍️',
-        'pricing' => '₹499 onwards',
-        'documents' => ['Member Aadhaar Card', 'Nominee Aadhaar & Photo', 'Nominee Bank Account Info'],
-        'eligibility' => 'All active EPF member account holders.',
-        'process' => '1. Profile Check -> 2. Add Nominee Info -> 3. Aadhaar OTP E-Sign Verification',
-        'timeline' => '1 to 2 Working Days',
-        'faq' => [
-            'q' => 'Is e-nomination compulsory for withdrawals?',
-            'a' => 'Yes, most online claims now require an active e-nomination on file first.'
-        ]
-    ],
     'epfo-esic-claims' => [
-        'title' => 'EPFO & ESIC Claims',
-        'desc' => 'Settlement assistance for PF withdrawals, advances, pension claims, and benefit forms.',
-        'details' => 'Get assistance navigating claims (Forms 31, 19, 10C) or ESIC medical claim benefits with minimal rejection rates.',
+        'title' => 'EPFO & ESIC Claims, UAN Activation & E-Nomination',
+        'desc' => 'Settlement assistance for PF withdrawals, advances, pension claims, UAN activation, KYC updates, and E-nomination setups.',
+        'details' => 'Get complete assistance navigating PF claims (Forms 31, 19, 10C, 10D), ESIC medical claims, member UAN activation, Aadhaar/PAN linking, KYC updates, and digital e-nomination setups on the Unified Portal.',
         'icon' => '⚖️',
-        'pricing' => '₹999 onwards',
-        'documents' => ['UAN Details', 'Aadhaar Link Status', 'Bank Passbook Photo', 'Employer Approvals (if offline)'],
-        'eligibility' => 'PF members or ESIC insured persons seeking cash benefits or withdrawals.',
-        'process' => '1. Service verification -> 2. Filing claim form -> 3. Tracking Status -> 4. Fund Disbursal',
-        'timeline' => '7 to 15 Working Days',
+        'pricing' => '₹499 onwards',
+        'documents' => [
+            'UAN & Password Details (if activated)',
+            'Aadhaar Card (Linked to active Mobile Number)',
+            'PAN Card',
+            'Member & Nominee Identity/Bank Details',
+            'Bank Cancelled Cheque / Passbook Photo'
+        ],
+        'eligibility' => 'All active EPF member account holders or ESIC insured persons seeking claims or portal updates.',
+        'process' => '1. Profile Check & UAN Activation -> 2. KYC Linkage & E-Nomination Setup -> 3. Claim Form Filing & Submission -> 4. Status Tracking & Disbursal',
+        'timeline' => '2 to 10 Working Days',
         'faq' => [
-            'q' => 'Why do claims get rejected?',
-            'a' => 'Mismatch in name, signature, birthdate, or unlinked bank accounts are common causes.'
-        ]
-    ],
-    'uan-activation' => [
-        'title' => 'UAN Member Activation',
-        'desc' => 'Link employee Aadhaar/PAN, update KYC parameters, and configure active accounts.',
-        'details' => 'Activate the Universal Account Number (UAN) to enable employees to download passbooks and track balances online.',
-        'icon' => '👤',
-        'pricing' => '₹299 onwards',
-        'documents' => ['Active UAN ID', 'Aadhaar Card Details', 'Mobile Number linked to Aadhaar'],
-        'eligibility' => 'Any salaried worker with an allocated UAN.',
-        'process' => '1. Enter UAN & Aadhaar -> 2. Request OTP -> 3. Verification -> 4. Password Setup',
-        'timeline' => 'Instant / 1 Day',
-        'faq' => [
-            'q' => 'Can I activate my UAN without Aadhaar?',
-            'a' => 'Aadhaar link is mandatory for activation on the unified portal.'
+            'q' => 'Is e-nomination mandatory for PF withdrawals?',
+            'a' => 'Yes, EPFO portal guidelines now require an active e-nomination on file before processing online withdrawal claims.'
         ]
     ],
     'gst-registration' => [
@@ -181,34 +210,19 @@ $services = [
             'a' => 'Yes, a Belated Return can be submitted until December 31st with a late fee.'
         ]
     ],
-    'fy-update' => [
-        'title' => 'Financial Year Update',
-        'desc' => 'Reconciliation of company books and transition configs for the new financial year.',
-        'details' => 'Ensure your accounting databases are closed, depreciation is mapped, and assets are updated for the new fiscal period.',
-        'icon' => '📅',
-        'pricing' => '₹4,999 onwards',
-        'documents' => ['Current Trial Balance', 'Bank Reconciliations', 'Fixed Assets Register'],
-        'eligibility' => 'Any business maintaining books under Indian Accounting Standards.',
-        'process' => '1. Book Closing -> 2. Entry Reconciliation -> 3. Opening New Ledgers',
-        'timeline' => '5 to 7 Working Days',
-        'faq' => [
-            'q' => 'When should this update take place?',
-            'a' => 'Usually completed immediately after March 31st to start the new financial year clean.'
-        ]
-    ],
     'msme-udyam-registration' => [
-        'title' => 'MSME Udyam Registration',
-        'desc' => 'Secure government benefits, subsidies, and priority loan certificates.',
-        'details' => 'Register under the MSME ministry to receive protection from delayed payments and avail interest subsidies.',
+        'title' => 'MSME / UDYAM Registration',
+        'desc' => 'Register your business under the MSME ministry through the Udyam portal to secure benefits and priority loan certificates.',
+        'details' => 'We provide complete assistance for new Udyam Registration, certificate download, profile updates, amendments, annual updates, and NIC code selection for proprietorships, partnerships, LLPs, companies, and societies.',
         'icon' => '🚀',
-        'pricing' => '₹1,499 onwards',
-        'documents' => ['Owner Aadhaar Card', 'PAN Card of Business', 'Bank Account Info'],
-        'eligibility' => 'Micro, Small, and Medium enterprises within turnover limits.',
-        'process' => '1. Aadhaar Verification -> 2. Portal registration -> 3. Certificate Issuance',
-        'timeline' => '2 Working Days',
+        'pricing' => '₹999 onwards',
+        'documents' => ['Aadhaar Card', 'PAN Card', 'Mobile linked with Aadhaar', 'Email ID', 'Business Address & Activity details', 'Bank Details'],
+        'eligibility' => 'Proprietorships, Partnerships, LLPs, Private Ltd Companies, Trusts, and Societies.',
+        'process' => '1. Submit Docs -> 2. Verification -> 3. NIC Code Selection -> 4. Portal Filing -> 5. Verification -> 6. Certificate Issued',
+        'timeline' => '2 to 3 Working Days',
         'faq' => [
-            'q' => 'Is there any renewal for Udyam Certificate?',
-            'a' => 'Udyam Registration is permanent and does not require renewal.'
+            'q' => 'What is Udyam Registration?',
+            'a' => 'Udyam Registration is the official registration issued by the Government of India for Micro, Small, and Medium Enterprises (MSMEs).'
         ]
     ],
     'labour-cards' => [
@@ -241,10 +255,30 @@ $services = [
             'a' => 'Yes, corporate entities can apply concurrently during registration.'
         ]
     ],
+    'digital-signature' => [
+        'title' => 'Digital Signature Certificate (DSC) Class 3',
+        'desc' => 'Obtain Class 3 Digital Signature Certificates (DSC) for secure online authentication, document signing, and e-filing.',
+        'details' => 'Secure your Class 3 Digital Signature Certificate (DSC) for 1, 2, or 3 years. We assist in processing signatures, encryption keys, and combo tokens in full compliance with Controller of Certifying Authorities (CCA) standards.',
+        'icon' => '✍️',
+        'pricing' => '₹999 onwards',
+        'documents' => [
+            'Applicant Aadhaar Card',
+            'Applicant PAN Card',
+            'Passport-size photograph of the applicant',
+            'Mobile number and email ID linked to Aadhaar for OTP/Video verification'
+        ],
+        'eligibility' => 'Individuals, corporate directors, partners, and authorized signatories bidding on tenders or filing corporate returns.',
+        'process' => '1. Select Validity (1, 2, or 3 Years) -> 2. Document Submission & OTP Verification -> 3. Video Verification -> 4. USB Token Dispatched',
+        'timeline' => '1 to 2 Working Days',
+        'faq' => [
+            'q' => 'What is the difference between Class 3 Sign, Encrypt, and Combo DSC?',
+            'a' => 'Sign DSC is used for signing forms (like GST, ITR, EPFO). Encrypt DSC protects sensitive emails/documents. Combo includes both and is mandatory for e-Tendering & e-Procurement portals.'
+        ]
+    ],
     'jeevan-pramaan' => [
         'title' => 'Jeevan Pramaan',
         'desc' => 'Biometric-enabled digital life certificate submissions for pensioners.',
-        'details' => ' পেনশন details are updated instantly using biometric fingerprints or iris verification to avoid physical bank visits.',
+        'details' => 'Pension details are updated instantly using biometric fingerprints or iris verification to avoid physical bank visits. We assist government pensioners in submitting their Jeevan Pramaan (Digital Life Certificate) quickly and conveniently.',
         'icon' => '🔐',
         'pricing' => '₹499 onwards',
         'documents' => ['Pensioner Aadhaar Card', 'PPO Number Details', 'Pension Disbursing Bank Account Info'],
@@ -257,78 +291,78 @@ $services = [
         ]
     ],
     'telangana-eprocurement' => [
-        'title' => 'Telangana eProcurement Registration',
-        'desc' => 'Vendor enrollment and bidding integration for Telangana state tenders.',
-        'details' => 'Get configured on the Telangana e-Procurement portal to bid on state government supply contracts and construction bids.',
+        'title' => 'Telangana e-Procurement Services',
+        'desc' => 'Complete assistance for vendor registration, DSC configuration, tender search, technical & financial bid preparation, and online submission.',
+        'details' => 'Participate in Telangana Government tenders with confidence through our professional e-Procurement services. We don\'t just submit tenders—we help you identify the right opportunities by providing monthly updates, explaining eligibility, and advising on suitability.',
         'icon' => '🏛️',
         'pricing' => '₹5,999 onwards',
-        'documents' => ['Firm Registration Proof', 'Class 3 Digital Signature Certificate (DSC)', 'PAN Card', 'Bank Cheque'],
-        'eligibility' => 'Proprietorships, Partnerships, and Private Ltd companies.',
-        'process' => '1. Register Portal Account -> 2. Associate DSC Keys -> 3. Document Auditing -> 4. Profile Activation',
+        'documents' => ['PAN Card', 'Aadhaar Card', 'GST Registration', 'Udyam / MSME Certificate', 'Labour Licence', 'Class 3 DSC', 'Financial & Experience Documents'],
+        'eligibility' => 'Proprietorships, Partnerships, LLPs, Companies, and eligible commercial entities.',
+        'process' => '1. Tender Search & Verification -> 2. Document Review -> 3. Vendor Reg & DSC Config -> 4. Technical & Financial Bid Preparation -> 5. Online Bid Submission',
         'timeline' => '5 to 7 Working Days',
         'faq' => [
-            'q' => 'Is a DSC mandatory?',
-            'a' => 'Yes, a Class 3 Digital Signature is required for authentication.'
+            'q' => 'What Telangana e-Procurement services do you provide?',
+            'a' => 'We provide vendor registration, DSC configuration, tender search, eligibility verification, technical and financial bid preparation, online tender submission, and complete tender support.'
         ]
     ],
     'central-eprocurement' => [
-        'title' => 'Central eProcurement Registration',
-        'desc' => 'National CPPP portal enrollment for bidding on central government tenders.',
-        'details' => 'Unlock nationwide contracts. Register as an approved vendor on the national public procurement database.',
+        'title' => 'Central e-Procurement (CPPP) & e-Tender Services',
+        'desc' => 'Complete assistance for CPPP vendor registration, DSC configuration, tender search, eligibility verification, bid preparation, and online submission.',
+        'details' => 'Participate in Central Government tenders with confidence. We provide complete support for CPPP registration, DSC setup, tender identification, eligibility checks, Technical & Financial Bid preparation, online submission, and post-submission tracking. We also provide regular monthly updates on newly published Central Government tenders.',
         'icon' => '🛡️',
         'pricing' => '₹6,999 onwards',
-        'documents' => ['Business PAN & Registration Details', 'Class 3 DSC', 'Work Experience details (optional)'],
-        'eligibility' => 'All legal commercial entities registered in India.',
-        'process' => '1. Vendor enrollment request -> 2. DSC association -> 3. Profile verification',
+        'documents' => ['PAN Card', 'Aadhaar Card', 'GST Registration', 'Udyam / MSME Certificate', 'Class 3 DSC (Sign + Encrypt)', 'Cancelled Cheque', 'Business Address Proof', 'Experience & Work Completion Certificates', 'ITR / Financial Statements'],
+        'eligibility' => 'Proprietorships, Partnership Firms, LLPs, Private Limited Companies, and other registered business entities.',
+        'process' => '1. Tender Identification & Eligibility -> 2. Document Verification -> 3. Vendor Registration & DSC Setup -> 4. Technical & Financial Bid Prep -> 5. Online Submission -> 6. Status Tracking',
         'timeline' => '5 to 7 Working Days',
         'faq' => [
-            'q' => 'What is CPPP?',
-            'a' => 'Central Public Procurement Portal is a single point of access for all central govt tenders.'
+            'q' => 'What is the Central Public Procurement Portal (CPPP)?',
+            'a' => 'The Central Public Procurement Portal (CPPP) is the Government of India\'s official portal for publishing and participating in Central Government tenders.'
         ]
     ],
     'gem-registration' => [
-        'title' => 'GeM Registration',
-        'desc' => 'Register as an official seller on the Government e-Marketplace portal.',
-        'details' => 'Directly sell your services or products to central and state offices through GeM catalog setups.',
+        'title' => 'GeM Seller Registration Services',
+        'desc' => 'Complete assistance for GeM registration, 100% profile completion, catalogue creation, brand/OEM support, and bid participation.',
+        'details' => 'Start and grow your Government business through the Government e-Marketplace (GeM) Portal. We assist with registration, profile completion, product/service listings, OEM/Brand approvals, bidding, and account order management.',
         'icon' => '🛒',
         'pricing' => '₹4,999 onwards',
-        'documents' => ['Aadhaar of Director/Owner', 'Business PAN Card', 'GSTIN Details', 'Cancel Cheque'],
-        'eligibility' => 'OEM manufacturers, service providers, and traders.',
-        'process' => '1. User ID creation -> 2. Aadhaar / PAN Verification -> 3. Profile Setup -> 4. Product Upload',
+        'documents' => ['PAN Card', 'Aadhaar Card', 'GST Registration', 'Udyam / MSME Certificate', 'Cancelled Cheque', 'Class 3 DSC', 'ITR (If applicable)', 'Brand / OEM Details'],
+        'eligibility' => 'Proprietorships, Partnerships, LLPs, Companies, OEMs, traders, and service providers.',
+        'process' => '1. Document Verification -> 2. Registration & Verification -> 3. 100% Profile Setup -> 4. Create & Upload Catalogues -> 5. Final Approval & Bid Alerts',
         'timeline' => '5 to 7 Working Days',
         'faq' => [
-            'q' => 'Are there transaction charges on GeM?',
-            'a' => 'GeM is free for basic registration; small fees are applied during high-value bid participation.'
+            'q' => 'What is GeM?',
+            'a' => 'GeM (Government e-Marketplace) is the Government of India\'s official online procurement portal where Government departments purchase products and services from registered sellers.'
         ]
     ],
     'job-assistance' => [
-        'title' => 'Applying all types of Government or Private jobs',
-        'desc' => 'Guided form submissions, application monitoring, and eligibility audits.',
-        'details' => 'Get expert help filing complex government and private job recruitments with accurate documents.',
+        'title' => 'Government Application Services',
+        'desc' => 'Professional assistance for applying to Government and Private sector job opportunities across India, ensuring accurate and timely submission.',
+        'details' => 'We provide professional assistance for applying to Government and Private sector job opportunities across India. Our services include online application submission, document verification, profile creation, exam form filling, fee payment guidance, admit card assistance, and application status support. We ensure your applications are submitted accurately and before the deadline.',
         'icon' => '🎓',
         'pricing' => '',
-        'documents' => ['Education Certificates', 'Category Certificates (if any)', 'Aadhaar Card', 'Passport Photo'],
-        'eligibility' => 'Candidates satisfying specific recruitment notifications.',
-        'process' => '1. Notification Review -> 2. Document upload -> 3. Final submission',
-        'timeline' => 'As per vacancy deadlines',
+        'documents' => ['Aadhaar Card', 'PAN Card (If Required)', 'Educational Certificates', 'Caste Certificate (If Applicable)', 'EWS Certificate (If Applicable)', 'Income Certificate (If Required)', 'Passport Photo', 'Signature', 'Mobile Number & Email ID', 'Resume / CV (For Private Jobs)', 'Experience Certificates (If Applicable)'],
+        'eligibility' => 'All candidates meeting official recruitment notification criteria — Central Govt, State Govt, Banking, SSC, Railway, Defence, Police, and Private sector applicants.',
+        'process' => '1. Submit Documents -> 2. Notification & Eligibility Check -> 3. Online Form Filling -> 4. Document Upload & Fee Payment -> 5. Application Submission -> 6. Status & Admit Card Support',
+        'timeline' => 'As per vacancy notification deadlines',
         'faq' => [
-            'q' => 'Do you guarantee selection?',
-            'a' => 'No, we only provide documentation submission and application filing assistance.'
+            'q' => 'Which job applications do you assist with?',
+            'a' => 'We assist with Central Government, State Government, Banking, SSC, Railway, Defence, Police, PSU, Private Company, MNC, IT, Healthcare, Education, and many other job applications.'
         ]
     ],
     'bill-preparation' => [
-        'title' => 'Government or Private jobs bill preparation',
-        'desc' => 'Accurate preparation and submission of contractor bills.',
-        'details' => 'Avoid delays. We structure payment claims, compile measurement sheets, and map invoice details.',
+        'title' => 'Government & Private Bill Preparation Services',
+        'desc' => 'Professional bill preparation for Government departments, contractors, and service providers covering outsourcing, manpower, civil, electrical, and supply bills.',
+        'details' => 'We provide professional bill preparation services for Government departments, private organizations, contractors, and service providers. Our team prepares accurate bills for outsourcing services, manpower contracts, security services, housekeeping, electrical works, civil construction works, and other contract-based projects. We ensure all bills are prepared as per the work order, agreement terms, and department requirements.',
         'icon' => '📝',
         'pricing' => '',
-        'documents' => ['Contract Work Order', 'Measurement Books (MB)', 'Invoice Copy'],
-        'eligibility' => 'Government or private contractors executing works.',
-        'process' => '1. Bill compilation -> 2. Reconciliation -> 3. Final filing',
+        'documents' => ['Work Order / Agreement', 'Invoice Details', 'GST Registration Certificate (If Applicable)', 'PAN Card', 'Measurement Book / Sheet (If Applicable)', 'Attendance Register', 'Wage Register', 'EPF & ESIC Challans (If Applicable)', 'Bank Details', 'Supporting Documents as Required'],
+        'eligibility' => 'Government and private contractors, manpower agencies, security service providers, civil & electrical contractors, and other service providers.',
+        'process' => '1. Submit Work Order & Documents -> 2. Document Verification -> 3. Bill & Invoice Preparation -> 4. Verification & Corrections -> 5. Final Bill Generation -> 6. Submission Support',
         'timeline' => '3 to 5 Working Days',
         'faq' => [
-            'q' => 'Do you coordinate with department offices?',
-            'a' => 'We prepare complete documentation for you to submit to your clients.'
+            'q' => 'Which bills do you prepare?',
+            'a' => 'We prepare Government and Private sector bills, including outsourcing, manpower, security, housekeeping, electrical, civil construction, service, supply, RA bills, and final bills.'
         ]
     ],
     'freelance-epf-esic' => [
@@ -347,18 +381,18 @@ $services = [
         ]
     ],
     'job-works' => [
-        'title' => 'Telugu and English Job Works',
-        'desc' => 'Professional documentation, translation, and data entry job works in Telugu and English.',
-        'details' => 'Get high-quality typing, formatting, and drafting services in both Telugu and English for official and business purposes.',
+        'title' => 'Telugu & English Typing, DTP, Xerox & Digital Documentation Services',
+        'desc' => 'Fast, accurate, and professional Telugu & English typing, DTP, printing, scanning, lamination, and digital documentation services for all your needs.',
+        'details' => 'We provide fast, accurate, and professional Telugu & English typing, DTP, document formatting, printing, scanning, lamination, and digital documentation services for individuals, students, businesses, advocates, contractors, and government employees. We prepare official letters, applications, affidavits, resumes, quotations, invoices, project reports, and various office documents with professional formatting.',
         'icon' => '✍️',
         'pricing' => '',
-        'documents' => ['Source documents', 'Instructions file'],
-        'eligibility' => 'Anyone requiring professional documentation works.',
-        'process' => '1. Requirement gathering -> 2. Drafting/Typing -> 3. Proofreading -> 4. Delivery',
-        'timeline' => 'Depends on volume',
+        'documents' => ['Original Documents', 'Soft Copy (If Available)', 'Mobile Number', 'Email ID (If Required)', 'Passport Size Photo (If Required)'],
+        'eligibility' => 'Individuals, students, businesses, advocates, contractors, and government employees requiring typing, DTP, printing, scanning, or documentation services.',
+        'process' => '1. Submit Your Document -> 2. Typing / Formatting -> 3. Proof Reading & Corrections -> 4. Printing / Scanning / Lamination -> 5. Document Delivery',
+        'timeline' => 'Same-Day to 2 Working Days (Based on Volume)',
         'faq' => [
-            'q' => 'Do you do legal drafting in Telugu?',
-            'a' => 'Yes, we handle various official and legal document preparation in both languages.'
+            'q' => 'Do you provide Telugu and English typing?',
+            'a' => 'Yes. We provide Telugu, English, and bilingual typing services.'
         ]
     ]
 ];
@@ -392,10 +426,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
         <div class="container nav-container" style="position: relative;">
             <a href="index.php?page=home" class="logo" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
                 <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Logo" style="height: 60px; width: auto; object-fit: contain;">
-                <div class="logo-text-wrapper">
-                    <span class="logo-text-primary">Aadhivaraha</span>
-                    <span class="logo-text-secondary">Services</span>
-                    <span class="logo-text-tagline">Your Trusted Compliance Partner</span>
+                <div class="logo-text-wrapper" style="display: flex; flex-direction: column; justify-content: center; line-height: 1.1;">
+                    <div style="font-size: 20px; font-weight: 800; letter-spacing: -0.5px;">
+                        <span style="color: var(--color-primary);">AADHIVARAHA</span> 
+                        <span style="color: var(--color-accent);">SERVICES</span>
+                    </div>
+                    <span style="font-size: 8px; font-weight: 700; color: var(--color-primary); letter-spacing: 0.1px; text-transform: uppercase;">A UNIT OF AADHIVARAHA SECURITY ALLIED SERVICES</span>
                 </div>
             </a>
             
@@ -411,10 +447,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                     </div>
                 </li>
                 <li><a href="index.php?page=contact" class="nav-link <?php echo $page == 'contact' ? 'active' : ''; ?>">Contact</a></li>
-                <li class="mobile-call-btn" style="display: none;"><a href="tel:+919876543210" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px;"><span style="margin-right: 8px;">📞</span> 98765 43210</a></li>
+                <li class="mobile-call-btn" style="display: none;">
+                    <a href="tel:+917981674916" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px; display: inline-flex; align-items: center; gap: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        79816 74916
+                    </a>
+                </li>
             </ul>
             <div class="desktop-call-btn" style="display: flex; gap: 12px; align-items: center;">
-                <a href="tel:+919876543210" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px;"><span style="margin-right: 8px;">📞</span> 98765 43210</a>
+                <a href="tel:+917981674916" class="btn btn-call" style="padding: 10px 20px; font-size: 14px; border-radius: 6px; display: inline-flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    79816 74916
+                </a>
             </div>
         </div>
     </header>
@@ -431,57 +475,179 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
         ?>
     </main>
 
-    <!-- Sticky Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <a href="index.php?page=home" class="footer-logo" style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
-                        <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha" style="height: 50px; width: auto; object-fit: contain;">
-                    </a>
-                    <p style="font-size: 14px; margin-top: 10px; line-height: 1.7;">Premium corporate consultancy offering comprehensive regulatory registrations and strategic business compliance solutions.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.php?page=home">Home</a></li>
-                        <li><a href="index.php?page=about">About Us</a></li>
-                        <li><a href="index.php?page=why-choose-us">Why Choose Us</a></li>
+    <!-- Premium Footer -->
+    <footer class="site-footer">
 
-                        <li><a href="index.php?page=faqs">General FAQs</a></li>
-                    </ul>
+        <!-- Top CTA Strip -->
+        <div class="footer-cta-strip">
+            <div class="container footer-cta-inner">
+                <div class="footer-cta-text">
+                    <span class="footer-cta-tag">GET IN TOUCH</span>
+                    <h2>Ready to get your registration done? <span>Let's talk!</span></h2>
                 </div>
-                <div class="footer-col">
-                    <h4>Core Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.php?page=services">Government Registrations</a></li>
-                        <li><a href="index.php?page=services">Tax & Returns Filing</a></li>
-                        <li><a href="index.php?page=services">Labour & EPF Compliances</a></li>
-                        <li><a href="index.php?page=privacy">Privacy Policy</a></li>
-                        <li><a href="index.php?page=terms">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Us</h4>
-                    <p style="font-size: 14px; margin-bottom: 8px;">📍 Hyderabad, Telangana</p>
-                    <p style="font-size: 14px; margin-bottom: 8px;">✉️ compliance@aadhivaraha.com</p>
-                    <p style="font-size: 14px; font-weight: 700; color: #FFFFFF;">📞 +91 98765 43210</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> Aadhivaraha Services. All rights reserved.</p>
-                <div style="display: flex; gap: 20px;">
-                    <a href="index.php?page=privacy" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy</a>
-                    <a href="index.php?page=terms" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms</a>
+                <div class="footer-cta-btns">
+                    <a href="https://wa.me/917981674916?text=Hello%2C%20I%20need%20assistance%20with%20a%20service" target="_blank" class="footer-cta-btn footer-cta-green">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        WhatsApp Us
+                    </a>
+                    <a href="tel:+917981674916" class="footer-cta-btn footer-cta-outline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        Call Now
+                    </a>
                 </div>
             </div>
         </div>
-    </footer>
 
+        <!-- Main Footer Body -->
+        <div class="footer-body">
+            <div class="container">
+                <div class="footer-main-grid">
+                    <!-- Col 1: Brand -->
+                    <div class="footer-brand-col">
+                        <a href="index.php?page=home" class="footer-brand-logo">
+                            <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha Services Logo">
+                            <div class="footer-brand-name">
+                                <span class="f-brand-primary">AADHIVARAHA</span>
+                                <span class="f-brand-accent">SERVICES</span>
+                                <small>A Unit of Aadhivaraha Security Allied Services</small>
+                            </div>
+                        </a>
+                        <p class="footer-brand-desc">Your trusted partner for government compliance, business registrations, EPF &amp; ESIC services, tenders and digital documentation — all under one roof.</p>
+
+                        <!-- Trust Badges -->
+                        <div class="footer-trust-badges">
+                            <div class="footer-trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                <span>100% Secure</span>
+                            </div>
+                            <div class="footer-trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                <span>Expert Team</span>
+                            </div>
+                            <div class="footer-trust-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                <span>On-Time</span>
+                            </div>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="footer-socials">
+                            <a href="https://wa.me/917981674916" target="_blank" class="footer-social-btn" style="--social-color:#25D366;" title="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            </a>
+                            <a href="https://www.facebook.com/AadhivarahaServices/" target="_blank" class="footer-social-btn" style="--social-color:#1877F2;" title="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            </a>
+                            <a href="https://www.instagram.com/aadhivarahaservices?igsh=NXkzdmtnMGFyNzh1" target="_blank" class="footer-social-btn" style="--social-color:#E4405F;" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                            <a href="https://www.youtube.com/@AADHIVARAHASERVICES" target="_blank" class="footer-social-btn" style="--social-color:#FF0000;" title="YouTube">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                            </a>
+                            <a href="https://x.com/AadhivarahaSer" target="_blank" class="footer-social-btn footer-social-x" style="--social-color:#ffffff;" title="X">
+                                <strong style="font-size:13px; font-weight:800;">&#x1D54F;</strong>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Col 2: Quick Links -->
+                    <div class="footer-links-col">
+                        <h4 class="footer-col-heading"><span class="footer-heading-dot"></span>Quick Links</h4>
+                        <ul class="footer-nav-list">
+                            <li><a href="index.php?page=home">Home</a></li>
+                            <li><a href="index.php?page=about">About Us</a></li>
+                            <li><a href="index.php?page=services">All Services</a></li>
+                            <li><a href="index.php?page=why-choose-us">Why Choose Us</a></li>
+                            <li><a href="index.php?page=faqs">FAQs</a></li>
+                            <li><a href="index.php?page=contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 3: Our Services -->
+                    <div class="footer-links-col">
+                        <h4 class="footer-col-heading"><span class="footer-heading-dot"></span>Our Services</h4>
+                        <ul class="footer-nav-list">
+                            <li><a href="index.php?page=service-details&id=epfo-registration">EPFO Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=esic-registration">ESIC Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=gst-registration">GST Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=firm-registration">Firm Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=digital-signature">Digital Signature (DSC)</a></li>
+                            <li><a href="index.php?page=service-details&id=gem-registration">GeM Registration</a></li>
+                            <li><a href="index.php?page=service-details&id=telangana-eprocurement">e-Procurement &amp; Tenders</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 4: Contact -->
+                    <div class="footer-contact-col">
+                        <h4 class="footer-col-heading"><span class="footer-heading-dot"></span>Contact Info</h4>
+                        <div class="footer-contact-list">
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div>
+                                    <span class="footer-contact-label">Office</span>
+                                    <p>Karimnagar, Telangana</p>
+                                </div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div>
+                                    <span class="footer-contact-label">Phone</span>
+                                    <p><a href="tel:+917981674916">+91 79816 74916</a><br><a href="tel:+919553186025">+91 95531 86025</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div>
+                                    <span class="footer-contact-label">Email</span>
+                                    <p><a href="mailto:aadhivarahaservices@gmail.com">aadhivarahaservices@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                </div>
+                                <div>
+                                    <span class="footer-contact-label">Hours</span>
+                                    <p>Mon – Sat &nbsp;|&nbsp; 9:30 AM – 7:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.footer-main-grid -->
+            </div>
+        </div><!-- /.footer-body -->
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom-bar">
+            <div class="container footer-bottom-inner">
+                <p class="footer-copyright">&copy; <?php echo date('Y'); ?> Aadhivaraha Services. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="index.php?page=privacy">Privacy Policy</a>
+                    <span class="footer-bottom-divider">|</span>
+                    <a href="index.php?page=terms">Terms &amp; Conditions</a>
+                    <span class="footer-bottom-divider">|</span>
+                    <a href="index.php?page=contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
     <!-- Floating CTAs -->
     <div class="floating-ctas">
-        <a href="https://wa.me/919876543210?text=I%20am%20interested%20in%20your%20services" target="_blank" class="floating-btn floating-whatsapp" title="WhatsApp Enquiry">💬</a>
-        <a href="tel:+919876543210" class="floating-btn floating-call" title="Call Us">📞</a>
+        <a href="https://wa.me/917981674916" target="_blank" class="floating-btn floating-whatsapp" title="WhatsApp Enquiry">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </a>
+        <a href="tel:+917981674916" class="floating-btn floating-call" title="Call Us">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </a>
     </div>
 
     <!-- Basic UI scripts for accordions and interactions -->

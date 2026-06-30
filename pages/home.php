@@ -1,21 +1,27 @@
 <!-- Hero Banner Section -->
-<section class="hero-banner" style="background: linear-gradient(rgba(248, 250, 253, 0.92), rgba(226, 235, 244, 0.95)), url('images/hero_bg.png') center/cover no-repeat; padding: 80px 0 60px 0; border-bottom: 1px solid #e2ebf4; position: relative;">
+<section class="hero-banner" style="background: linear-gradient(rgba(248, 250, 253, 0.92), rgba(226, 235, 244, 0.95)), url('images/hero_bg.png') center/cover no-repeat; border-bottom: 1px solid #e2ebf4; position: relative;">
     <div class="container">
-        <div class="hero-content hero-content-layout">
-            <div class="hero-text-area" style="color: var(--color-text-dark);">
-                <span class="hero-tag" style="background: var(--color-primary); color: #fff; border: none; padding: 8px 16px; border-radius: 20px; font-size: 11px; letter-spacing: 1px; font-weight: 700; margin-bottom: 24px; display: inline-block;">TRUSTED • RELIABLE • PROFESSIONAL</span>
-                <h1 style="color: var(--color-primary); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.1; margin-bottom: 20px;">Aadhivaraha <br><span style="color: var(--color-accent);">Services</span></h1>
-                <h3 style="font-size: 20px; font-weight: 700; color: var(--color-text-dark); margin-bottom: 20px; line-height: 1.4; max-width: 95%;">Trusted Services for EPF, ESIC, GST, Firm Registration, Labour Licences, Digital Signature, GeM & Tender Support</h3>
-                <p style="color: var(--color-text); font-size: 16px; margin-bottom: 40px; max-width: 90%; line-height: 1.6;">We provide professional documentation, registration and compliance services for individuals, businesses and employers with fast support and clear guidance.</p>
+        <div class="hero-content">
+            <div class="hero-text-area">
+                <span class="hero-tag">TRUSTED • RELIABLE • PROFESSIONAL</span>
+                <h1>Aadhivaraha <br><span>Services</span></h1>
+                <h3>Trusted Services for EPF, ESIC, GST, Firm Registration, Labour Licences, Digital Signature, GeM & Tender Support</h3>
+                <p>We provide professional documentation, registration and compliance services for individuals, businesses and employers with fast support and clear guidance.</p>
                 
-                <div class="hero-actions" style="margin-top: 30px; margin-bottom: 20px;">
-                    <a href="index.php?page=services" class="btn" style="background: var(--color-primary); color: #fff; padding: 14px 28px; border-radius: 8px; box-shadow: 0 4px 10px rgba(21, 28, 61, 0.2); font-weight: 600;"><span style="margin-right: 8px; font-size: 18px;">📋</span> View Services</a>
-                    <a href="https://wa.me/919876543210" class="btn" style="background: #25d366; color: #fff; padding: 14px 28px; border-radius: 8px; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3); font-weight: 600; border: none;"><span style="margin-right: 8px; font-size: 18px;">💬</span> Contact on WhatsApp</a>
+                <div class="hero-actions">
+                    <a href="index.php?page=services" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        View Services
+                    </a>
+                    <a href="https://wa.me/917981674916" class="btn btn-call">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        WhatsApp Support
+                    </a>
                 </div>
             </div>
 
-            <div class="hero-form-box" style="background: #fff; border-radius: 12px; padding: 32px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
-                <h3 style="font-size: 22px; font-weight: 800; color: var(--color-primary); margin-bottom: 24px;">Get Service Support</h3>
+            <div class="hero-form-box">
+                <h3>Get Service Support</h3>
                 <form action="index.php" method="POST">
                     <div class="form-group" style="position: relative; margin-bottom: 20px;">
                         <span style="position: absolute; left: 14px; top: 12px; font-size: 18px; color: #94a3b8;">👤</span>
@@ -113,7 +119,7 @@
             </a>
 
             <!-- 5. Digital Signature -->
-            <a href="index.php?page=service-details&id=telangana-eprocurement" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
+            <a href="index.php?page=service-details&id=digital-signature" class="service-card" style="text-align: center; padding: 32px 16px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: none;">
                 <div style="margin: 0 auto 16px; width: 64px; height: 64px; background: #f8fafc; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 32px; color: var(--color-primary);">✒️</div>
                 <h3 style="font-size: 16px; margin-bottom: 8px; color: var(--color-primary);">Digital Signature</h3>
                 <p style="font-size: 12.5px; line-height: 1.5; color: #64748b; margin: 0;">Class 3 DSC for Tender, GST, ROC & Others</p>
@@ -156,7 +162,7 @@
         </div>
         
         <div style="text-align: center; margin-top: 50px;">
-             <a href="index.php?page=services" class="btn btn-outline" style="border: 1px solid var(--color-primary); color: var(--color-primary); padding: 12px 30px; font-weight: 700; border-radius: 6px;">View All Services ></a>
+             <a href="index.php?page=services" class="btn btn-outline">View All Services &gt;</a>
         </div>
     </div>
 </section>
@@ -228,6 +234,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
-z

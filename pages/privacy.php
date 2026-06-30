@@ -21,7 +21,7 @@
             <p>We implement professional firewall networks, encrypted databases, and multi-factor authorization systems. Your digital keys (DSC tokens) are processed in isolated setups and are returned or deleted immediately upon completion of portal registrations.</p>
             
             <h3 style="color: var(--color-primary); margin-top: 15px;">3. Data Deletion</h3>
-            <p>Clients can request complete deletion of their uploaded files from our databases by corresponding with our compliance officers at compliance@aadhivaraha.com.</p>
+            <p>Clients can request complete deletion of their uploaded files from our databases by corresponding with our compliance officers at aadhivarahaservices@gmail.com.</p>
         </div>
     </div>
 </section>

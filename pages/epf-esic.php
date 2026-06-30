@@ -20,7 +20,7 @@
                     <li><a class="tab-link" onclick="switchTab('employee-services', this)">Employee Side Services</a></li>
                     <li><a class="tab-link" onclick="switchTab('employer-services', this)">Employer Side Services</a></li>
                     <li><a class="tab-link" onclick="switchTab('documents', this)">Required Documents</a></li>
-                    <li><a href="https://wa.me/919876543210" target="_blank" class="tab-link" style="color: #25D366; font-weight: bold; border-left-color: #25D366;">Contact on WhatsApp</a></li>
+                    <li><a href="https://wa.me/917981674916" target="_blank" class="tab-link" style="color: #25D366; font-weight: bold; border-left-color: #25D366;">Contact on WhatsApp</a></li>
                 </ul>
             </aside>
 
@@ -72,7 +72,7 @@
                     </ul>
                     
                     <div style="margin-top: 30px;">
-                        <a href="https://wa.me/919876543210?text=I%20need%20help%20with%20Employee%20EPF/ESIC%20Services" target="_blank" class="btn btn-secondary" style="background: #25D366; color: white;">💬 Contact on WhatsApp</a>
+                        <a href="https://wa.me/917981674916?text=I%20need%20help%20with%20Employee%20EPF/ESIC%20Services" target="_blank" class="btn btn-call">💬 Contact on WhatsApp</a>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@
                     </ul>
                     
                     <div style="margin-top: 30px;">
-                        <a href="https://wa.me/919876543210?text=I%20need%20help%20with%20Employer%20EPF/ESIC%20Services" target="_blank" class="btn btn-secondary" style="background: #25D366; color: white;">💬 Contact on WhatsApp</a>
+                        <a href="https://wa.me/917981674916?text=I%20need%20help%20with%20Employer%20EPF/ESIC%20Services" target="_blank" class="btn btn-call">💬 Contact on WhatsApp</a>
                     </div>
                 </div>
 
@@ -140,7 +140,7 @@
                     </div>
                     
                     <div style="margin-top: 30px;">
-                        <a href="https://wa.me/919876543210?text=I%20have%20my%20documents%20ready" target="_blank" class="btn btn-secondary" style="background: #25D366; color: white;">💬 Contact on WhatsApp</a>
+                        <a href="https://wa.me/917981674916?text=I%20have%20my%20documents%20ready" target="_blank" class="btn btn-call">💬 Contact on WhatsApp</a>
                     </div>
                 </div>
 
