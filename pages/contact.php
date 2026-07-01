@@ -70,11 +70,43 @@
                 </div>
 
                 <?php if ($submission_success): ?>
-                    <div style="text-align: center; padding: 40px 0;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                        <h4 style="color: var(--color-primary); margin-top: 20px; font-size: 18px; font-weight: 700;">Enquiry Received</h4>
-                        <p style="color: var(--color-text); font-size: 14px; margin-top: 10px;">A compliance executive will review your parameters and contact you shortly.</p>
+                    <!-- ── Success Message ── -->
+                    <div style="text-align: center; padding: 32px 16px;">
+
+                        <!-- Animated tick circle -->
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg,#10b981,#059669); display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; box-shadow: 0 8px 32px rgba(16,185,129,0.35);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+
+                        <h3 style="color: var(--color-text); font-size: 22px; font-weight: 800; margin-bottom: 10px;">Enquiry Submitted Successfully!</h3>
+                        <p style="color: var(--color-text-muted); font-size: 14px; line-height: 1.8; margin-bottom: 8px;">
+                            Thank you for reaching out to <strong style="color: var(--color-primary);">Aadhivaraha Services</strong>.
+                        </p>
+                        <p style="color: var(--color-text-muted); font-size: 14px; line-height: 1.8; margin-bottom: 28px;">
+                            Our team has received your enquiry and will contact you shortly. For urgent assistance, feel free to reach us directly on WhatsApp or call us.
+                        </p>
+
+                        <!-- Action buttons -->
+                        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px;">
+                            <a href="https://wa.me/917981674916" target="_blank"
+                               style="display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 10px; font-size: 14px; font-weight: 700;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                                Chat on WhatsApp
+                            </a>
+                            <a href="index.php?page=contact"
+                               style="display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--color-text); text-decoration: none; padding: 12px 22px; border-radius: 10px; font-size: 14px; font-weight: 600; border: 1px solid var(--color-border, rgba(255,255,255,0.12));">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                                Send Another Enquiry
+                            </a>
+                        </div>
+
+                        <!-- Response time note -->
+                        <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(249,115,22,0.08); border: 1px solid rgba(249,115,22,0.2); border-radius: 8px; padding: 10px 16px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            <span style="font-size: 12px; color: var(--color-primary); font-weight: 600;">We typically respond within 1–2 hours on working days (Mon–Sat, 9:30 AM – 7:00 PM)</span>
+                        </div>
                     </div>
+
                 <?php else: ?>
                     <form action="index.php?page=contact" method="POST">
                         <input type="hidden" name="service_name" value="General Portal Contact">
@@ -100,7 +132,7 @@
                         </div>
 
                         <div class="contact-form-group">
-                            <label>Corporate Email</label>
+                            <label>Email Address</label>
                             <div class="contact-input-wrapper">
                                 <span class="contact-input-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
@@ -110,20 +142,48 @@
                         </div>
 
                         <div class="contact-form-group">
-                            <label>Enquiry Scope</label>
+                            <label>Select Service</label>
                             <div class="contact-input-wrapper">
                                 <span class="contact-input-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
                                 </span>
                                 <select name="enquiry_scope" class="contact-form-control contact-select-control" required>
-                                    <option value="" disabled selected>Select enquiry type</option>
-                                    <option value="Firm Registration">Firm Registration</option>
-                                    <option value="Society Registration">Society Registration</option>
-                                    <option value="Labour License">Labour License</option>
-                                    <option value="EPFO & ESIC">EPFO & ESIC Services</option>
-                                    <option value="GST & Tax Filing">GST & Tax returns</option>
-                                    <option value="Tenders & DSC">Tenders & eProcurement</option>
-                                    <option value="Other">Other Services</option>
+                                    <option value="" disabled selected>— Select a Service —</option>
+                                    <optgroup label="EPF &amp; ESIC">
+                                        <option value="EPFO &amp; ESIC Employer Services">EPFO &amp; ESIC Employer Services</option>
+                                        <option value="EPFO &amp; ESIC Member / Employee Services">EPFO &amp; ESIC Member / Employee Services</option>
+                                    </optgroup>
+                                    <optgroup label="GST &amp; Tax">
+                                        <option value="GST Registration &amp; Returns">GST Registration &amp; Returns</option>
+                                        <option value="Income Tax Returns (ITR)">Income Tax Returns (ITR)</option>
+                                    </optgroup>
+                                    <optgroup label="Business Registration">
+                                        <option value="Firm Registration">Firm Registration</option>
+                                        <option value="Society Registration">Society Registration</option>
+                                        <option value="Association of Persons (AOP) Registration">Association of Persons (AOP) Registration</option>
+                                        <option value="FSSAI Food License Registration">FSSAI Food License Registration</option>
+                                        <option value="MSME / Udyam Registration">MSME / Udyam Registration</option>
+                                    </optgroup>
+                                    <optgroup label="Labour &amp; Compliance">
+                                        <option value="Labour License &amp; Shops Registration">Labour License &amp; Shops Registration</option>
+                                        <option value="Labour Cards">Labour Cards</option>
+                                    </optgroup>
+                                    <optgroup label="Digital &amp; Identity">
+                                        <option value="Digital Signature Certificate (DSC) Class 3">Digital Signature Certificate (DSC) Class 3</option>
+                                        <option value="PAN &amp; TAN Services">PAN &amp; TAN Services</option>
+                                        <option value="Jeevan Pramaan (Digital Life Certificate)">Jeevan Pramaan (Digital Life Certificate)</option>
+                                    </optgroup>
+                                    <optgroup label="Tenders &amp; Government Portals">
+                                        <option value="Telangana e-Procurement Services">Telangana e-Procurement Services</option>
+                                        <option value="Central e-Procurement (CPPP) &amp; e-Tender">Central e-Procurement (CPPP) &amp; e-Tender</option>
+                                        <option value="GeM Seller Registration Services">GeM Seller Registration</option>
+                                    </optgroup>
+                                    <optgroup label="Other Services">
+                                        <option value="Government Application / Job Assistance">Government Application / Job Assistance</option>
+                                        <option value="Government &amp; Private Bill Preparation">Government &amp; Private Bill Preparation</option>
+                                        <option value="Typing, DTP &amp; Documentation Services">Typing, DTP &amp; Documentation Services</option>
+                                        <option value="Other / General Enquiry">Other / General Enquiry</option>
+                                    </optgroup>
                                 </select>
                             </div>
                         </div>
@@ -134,13 +194,13 @@
                                 <span class="contact-input-icon" style="top: 14px;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                                 </span>
-                                <textarea name="message" class="contact-form-control" placeholder="Describe your compliance or licensing query..." required></textarea>
+                                <textarea name="message" class="contact-form-control" rows="7" placeholder="Please describe your requirement in detail. Include any relevant information such as number of employees, business type, current compliance status, or specific documents you have..." required style="min-height: 175px; resize: vertical;"></textarea>
                             </div>
                         </div>
 
                         <button type="submit" name="send_lead" class="contact-submit-btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                            Submit Enquiry Dossier
+                            Submit Enquiry
                         </button>
                     </form>
                 <?php endif; ?>

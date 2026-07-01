@@ -103,3 +103,9 @@ package-lock.json
 # ----------------------------------
 vendor/
 composer.phar
+
+# ----------------------------------
+# Admin & SMTP Credentials (NEVER commit these)
+# ----------------------------------
+config/smtp.json
+config/admin.php

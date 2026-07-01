@@ -21,36 +21,121 @@
             </div>
 
             <div class="hero-form-box">
-                <h3>Get Service Support</h3>
-                <form action="index.php" method="POST">
-                    <div class="form-group" style="position: relative; margin-bottom: 20px;">
-                        <span style="position: absolute; left: 14px; top: 12px; font-size: 18px; color: #94a3b8;">👤</span>
-                        <input type="text" name="name" placeholder="Full Name" required style="padding-left: 44px; padding-top: 14px; padding-bottom: 14px; border: 1px solid #e2e8f0; border-radius: 6px;">
+                <?php if ($submission_success): ?>
+                    <!-- ── Home Form Success Screen ── -->
+                    <div style="text-align:center; padding: 20px 8px;">
+                        <div style="width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 6px 24px rgba(16,185,129,0.35);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <h3 style="font-size:18px;font-weight:800;color:var(--color-text-dark);margin-bottom:8px;">Enquiry Received!</h3>
+                        <p style="font-size:13px;color:#64748b;line-height:1.7;margin-bottom:20px;">Thank you! Our team will contact you shortly. For urgent help, reach us on WhatsApp.</p>
+                        <a href="https://wa.me/917981674916" target="_blank"
+                           style="display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;text-decoration:none;padding:11px 20px;border-radius:8px;font-size:13px;font-weight:700;margin-bottom:10px;width:100%;justify-content:center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            Chat on WhatsApp
+                        </a>
+                        <a href="index.php"
+                           style="display:inline-flex;align-items:center;justify-content:center;gap:6px;background:transparent;color:#64748b;text-decoration:none;padding:9px 20px;border-radius:8px;font-size:13px;font-weight:600;border:1px solid #e2e8f0;width:100%;">
+                            &#8592; Send Another Enquiry
+                        </a>
+                        <p style="font-size:11px;color:#94a3b8;margin-top:14px;">&#128336; Mon–Sat &nbsp;|&nbsp; 9:30 AM – 7:00 PM</p>
                     </div>
-                    <div class="form-group" style="position: relative; margin-bottom: 20px;">
-                        <span style="position: absolute; left: 14px; top: 12px; font-size: 18px; color: #94a3b8;">📞</span>
-                        <input type="tel" name="phone" placeholder="Mobile Number" required style="padding-left: 44px; padding-top: 14px; padding-bottom: 14px; border: 1px solid #e2e8f0; border-radius: 6px;">
-                    </div>
-                    <div class="form-group" style="position: relative; margin-bottom: 20px;">
-                        <span style="position: absolute; left: 14px; top: 12px; font-size: 18px; color: #94a3b8;">📋</span>
-                        <select name="service" required style="padding-left: 44px; padding-top: 14px; padding-bottom: 14px; border: 1px solid #e2e8f0; border-radius: 6px; appearance: none; -webkit-appearance: none; background: url('data:image/svg+xml;utf8,<svg fill=\"%2394a3b8\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 10l5 5 5-5z\"/><path d=\"M0 0h24v24H0z\" fill=\"none\"/></svg>') no-repeat right 10px center; background-color: #fff;">
-                            <option value="">Select Service</option>
-                            <option value="Firm Registration">Firm Registration</option>
-                            <option value="GST">GST Registration</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group" style="position: relative; margin-bottom: 20px;">
-                        <span style="position: absolute; left: 14px; top: 12px; font-size: 18px; color: #94a3b8;">💬</span>
-                        <input type="text" name="message" placeholder="Message" required style="padding-left: 44px; padding-top: 14px; padding-bottom: 14px; border: 1px solid #e2e8f0; border-radius: 6px;">
-                    </div>
-                    <button type="submit" name="send_lead" class="form-submit-btn" style="background: #25d366; color: #fff; margin-top: 10px; display: flex; justify-content: center; align-items: center; gap: 8px; padding: 16px; border-radius: 6px; font-weight: 700; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2); border: none; width: 100%;">
-                        <span>💬</span> Submit / WhatsApp
-                    </button>
-                    <div style="text-align: center; margin-top: 16px; display: flex; justify-content: center; align-items: center; gap: 6px;">
-                        <span style="font-size: 12px;">🔒</span> <p style="font-size: 12px; margin-bottom: 0; color: #64748b;">Your information is safe with us.</p>
-                    </div>
-                </form>
+
+                <?php else: ?>
+                    <h3 style="font-size:17px;font-weight:800;color:var(--color-text-dark);margin-bottom:18px;display:flex;align-items:center;gap:8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        Get Free Consultation
+                    </h3>
+                    <form action="index.php" method="POST">
+                        <input type="hidden" name="service_name" value="Home Page Enquiry">
+
+                        <div class="form-group" style="position:relative;margin-bottom:14px;">
+                            <span style="position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#94a3b8;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            </span>
+                            <input type="text" name="name" placeholder="Your Full Name" required
+                                   style="padding:12px 12px 12px 38px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:14px;width:100%;outline:none;transition:border-color .2s;"
+                                   onfocus="this.style.borderColor='var(--color-primary)'" onblur="this.style.borderColor='#e2e8f0'">
+                        </div>
+
+                        <div class="form-group" style="position:relative;margin-bottom:14px;">
+                            <span style="position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#94a3b8;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </span>
+                            <input type="tel" name="phone" placeholder="Mobile Number" required
+                                   style="padding:12px 12px 12px 38px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:14px;width:100%;outline:none;transition:border-color .2s;"
+                                   onfocus="this.style.borderColor='var(--color-primary)'" onblur="this.style.borderColor='#e2e8f0'">
+                        </div>
+
+                        <div class="form-group" style="position:relative;margin-bottom:14px;">
+                            <span style="position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#94a3b8;pointer-events:none;z-index:1;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                            </span>
+                            <select name="enquiry_scope" required
+                                    style="padding:12px 12px 12px 38px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:14px;width:100%;outline:none;appearance:none;-webkit-appearance:none;background:#fff url('data:image/svg+xml;utf8,<svg fill=\"%2394a3b8\" height=\"20\" viewBox=\"0 0 24 24\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 10l5 5 5-5z\"/></svg>') no-repeat right 10px center;cursor:pointer;transition:border-color .2s;"
+                                    onfocus="this.style.borderColor='var(--color-primary)'" onblur="this.style.borderColor='#e2e8f0'">
+                                <option value="" disabled selected>-- Select Service --</option>
+                                <optgroup label="EPF &amp; ESIC">
+                                    <option value="EPFO &amp; ESIC Employer Services">EPFO &amp; ESIC Employer Services</option>
+                                    <option value="EPFO &amp; ESIC Member Services">EPFO &amp; ESIC Member Services</option>
+                                </optgroup>
+                                <optgroup label="GST &amp; Tax">
+                                    <option value="GST Registration &amp; Returns">GST Registration &amp; Returns</option>
+                                    <option value="Income Tax Returns (ITR)">Income Tax Returns (ITR)</option>
+                                </optgroup>
+                                <optgroup label="Business Registration">
+                                    <option value="Firm Registration">Firm Registration</option>
+                                    <option value="Society Registration">Society Registration</option>
+                                    <option value="AOP Registration">AOP Registration</option>
+                                    <option value="FSSAI Food License">FSSAI Food License</option>
+                                    <option value="MSME / Udyam Registration">MSME / Udyam Registration</option>
+                                </optgroup>
+                                <optgroup label="Labour &amp; Compliance">
+                                    <option value="Labour License &amp; Shops Registration">Labour License &amp; Shops Registration</option>
+                                    <option value="Labour Cards">Labour Cards</option>
+                                </optgroup>
+                                <optgroup label="Digital &amp; Identity">
+                                    <option value="Digital Signature Certificate (DSC)">Digital Signature Certificate (DSC)</option>
+                                    <option value="PAN &amp; TAN Services">PAN &amp; TAN Services</option>
+                                    <option value="Jeevan Pramaan">Jeevan Pramaan</option>
+                                </optgroup>
+                                <optgroup label="Tenders &amp; Govt Portals">
+                                    <option value="Telangana e-Procurement">Telangana e-Procurement</option>
+                                    <option value="Central e-Procurement (CPPP)">Central e-Procurement (CPPP)</option>
+                                    <option value="GeM Seller Registration">GeM Seller Registration</option>
+                                </optgroup>
+                                <optgroup label="Other Services">
+                                    <option value="Government Job Application">Government Job Application</option>
+                                    <option value="Bill Preparation Services">Bill Preparation Services</option>
+                                    <option value="Typing / DTP / Documentation">Typing / DTP / Documentation</option>
+                                    <option value="Other / General Enquiry">Other / General Enquiry</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="form-group" style="position:relative;margin-bottom:16px;">
+                            <span style="position:absolute;left:13px;top:14px;color:#94a3b8;pointer-events:none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                            </span>
+                            <textarea name="message" placeholder="Briefly describe your requirement..." required rows="3"
+                                      style="padding:12px 12px 12px 38px;border:1.5px solid #e2e8f0;border-radius:8px;font-size:14px;width:100%;outline:none;resize:vertical;min-height:80px;font-family:inherit;transition:border-color .2s;"
+                                      onfocus="this.style.borderColor='var(--color-primary)'" onblur="this.style.borderColor='#e2e8f0'"></textarea>
+                        </div>
+
+                        <button type="submit" name="send_lead"
+                                style="background:var(--color-primary);color:#fff;width:100%;padding:14px;border-radius:8px;font-weight:700;font-size:15px;border:none;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px;box-shadow:0 4px 14px rgba(249,115,22,0.35);transition:background .2s,transform .15s;"
+                                onmouseover="this.style.background='#ea580c';this.style.transform='translateY(-1px)'"
+                                onmouseout="this.style.background='var(--color-primary)';this.style.transform='translateY(0)'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Submit Enquiry
+                        </button>
+
+                        <div style="text-align:center;margin-top:12px;display:flex;justify-content:center;align-items:center;gap:6px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                            <p style="font-size:11.5px;margin:0;color:#94a3b8;">Your information is safe &amp; confidential.</p>
+                        </div>
+                    </form>
+                <?php endif; ?>
             </div>
         </div>
     </div>

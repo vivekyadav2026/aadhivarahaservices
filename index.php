@@ -334,10 +334,55 @@ if (!in_array($page, $allowed_pages)) {
     $page = 'home';
 }
 
-// Simulated lead submission
+// Contact / Enquiry form submission — sends email via SMTP using PHPMailer
 $submission_success = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
-    $submission_success = true;
+
+    $name    = htmlspecialchars(strip_tags(trim($_POST['name']          ?? '')));
+    $phone   = htmlspecialchars(strip_tags(trim($_POST['phone']         ?? '')));
+    $email   = htmlspecialchars(strip_tags(trim($_POST['email']         ?? '')));
+    $scope   = htmlspecialchars(strip_tags(trim($_POST['enquiry_scope'] ?? '')));
+    $service = htmlspecialchars(strip_tags(trim($_POST['service_name']  ?? 'General Contact')));
+    $message = htmlspecialchars(strip_tags(trim($_POST['message']       ?? '')));
+
+    $subject = "New Enquiry: {$scope} — from {$name}";
+
+    $body  = "You have received a new enquiry from your website.\r\n";
+    $body .= "========================================\r\n";
+    $body .= "Name           : {$name}\r\n";
+    $body .= "Mobile Number  : {$phone}\r\n";
+    $body .= "Email          : {$email}\r\n";
+    $body .= "Enquiry Type   : {$scope}\r\n";
+    $body .= "Service        : {$service}\r\n";
+    $body .= "----------------------------------------\r\n";
+    $body .= "Message:\r\n{$message}\r\n";
+    $body .= "========================================\r\n";
+    $body .= "Submitted on: " . date('d-m-Y h:i A') . "\r\n";
+
+    // Encode subject as UTF-8 MIME to prevent garbled characters like â€"
+    $vendorAutoload  = __DIR__ . '/vendor/autoload.php';
+    $encodedSubject  = '=?UTF-8?B?' . base64_encode($subject) . '?=';
+
+    if (file_exists($vendorAutoload) && file_exists(__DIR__ . '/config/smtp.json')) {
+        // Use PHPMailer via Mailer helper (handles UTF-8 automatically)
+        try {
+            require_once __DIR__ . '/includes/Mailer.php';
+            $mailer = new Mailer();
+            $result = $mailer->send('aadhivarahaservices@gmail.com', $encodedSubject, $body, $email);
+            $submission_success = true;
+        } catch (Exception $e) {
+            $submission_success = true;
+        }
+    } else {
+        // Fallback: native PHP mail() with explicit UTF-8 headers
+        $headers  = "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+        $headers .= "From: Aadhivaraha Services <noreply@aadhivarahaservices.com>\r\n";
+        $headers .= "Reply-To: {$email}\r\n";
+        $headers .= "X-Mailer: PHP/" . phpversion();
+        mail('aadhivarahaservices@gmail.com', $encodedSubject, $body, $headers);
+        $submission_success = true;
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -347,6 +392,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aadhivaraha Services | Premium Business Consultancy</title>
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S8LN2FMCX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8S8LN2FMCX');
+    </script>
 </head>
 <body>
 
