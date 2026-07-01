@@ -334,6 +334,34 @@ if (!in_array($page, $allowed_pages)) {
     $page = 'home';
 }
 
+// Generate SEO Title and Meta Description Dynamically
+$meta_title = "Aadhivaraha Services | Premium Business Consultancy";
+$meta_desc  = "Trusted partner for EPF, ESIC, GST, Firm Registration, Labour Licences, Digital Signatures, and government project bid support in Karimnagar, Telangana.";
+
+if ($page === 'about') {
+    $meta_title = "About Us | Aadhivaraha Services";
+    $meta_desc  = "Learn about Aadhivaraha Services, Karimnagar's leading consultant for government licenses, employer registrations, and corporate compliance services.";
+} elseif ($page === 'services') {
+    $meta_title = "Our Services | Aadhivaraha Services";
+    $meta_desc  = "Explore our range of services: EPF, ESIC, GST registration, tax returns, firm setup, digital signatures (DSC), and government tenders.";
+} elseif ($page === 'service-details') {
+    $service_id = htmlspecialchars($_GET['id'] ?? '');
+    if (isset($services[$service_id])) {
+        $meta_title = $services[$service_id]['title'] . " | Aadhivaraha Services";
+        $meta_desc  = substr(strip_tags($services[$service_id]['desc']), 0, 160);
+    }
+} elseif ($page === 'contact') {
+    $meta_title = "Contact Us | Aadhivaraha Services Karimnagar";
+    $meta_desc  = "Get in touch with Aadhivaraha Services at Mukarampura, Karimnagar. Call 7981674916 or email aadhivarahaservices@gmail.com for support.";
+} elseif ($page === 'privacy') {
+    $meta_title = "Privacy Policy | Aadhivaraha Services";
+    $meta_desc  = "Read the privacy policy of Aadhivaraha Services outlining document confidentiality, data safety, and data deletion requests.";
+} elseif ($page === 'terms') {
+    $meta_title = "Terms &amp; Conditions | Aadhivaraha Services";
+    $meta_desc  = "Review terms of service, payment terms, and user refund policies for services rendered by Aadhivaraha Services.";
+}
+
+
 // Contact / Enquiry form submission — sends email via SMTP using PHPMailer
 $submission_success = false;
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
@@ -390,7 +418,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aadhivaraha Services | Premium Business Consultancy</title>
+    <meta name="google-site-verification" content="yKSNz1KfIvI_czkDpaBKgPJ6PcRajw9ptqf8lJc2YKQ" />
+    <title><?php echo $meta_title; ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 
     <!-- Google tag (gtag.js) -->
