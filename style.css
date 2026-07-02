@@ -1311,7 +1311,9 @@ section {
   height: 52px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 6px;
   opacity: 0.95;
 }
 
