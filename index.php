@@ -103,7 +103,7 @@ $services = [
         'title' => 'EPFO & ESIC Employer Services',
         'desc' => 'Manage all your EPFO and ESIC employer compliance requirements in one place with Aadhivaraha Services. We provide complete assistance for EPFO & ESIC registration, employee onboarding, monthly statutory returns, compliance updates, Digital Signature (DSC) configuration, employer portal management, and labour law support.',
         'details' => 'Our experienced team ensures accurate, timely, and hassle-free compliance services for proprietorships, partnership firms, companies, LLPs, trusts, societies, contractors, and all eligible establishments.',
-        'icon' => '🏛️',
+        'icon' => '🏢',
         'pricing' => '₹2,999 onwards',
         'documents' => [],
         'eligibility' => 'Businesses with 10/20 or more employees must register for ESIC/EPFO compliance.',
@@ -115,7 +115,7 @@ $services = [
         'title' => 'EPFO & ESIC Member Services',
         'desc' => 'Get complete assistance for all EPFO and ESIC employee/member-related services under one roof. We help employees with PF claims, pension claims, PF transfers, advances, UAN services, KYC updates, e-Nomination, profile corrections, ESIC benefits, and other statutory services.',
         'details' => 'Our experienced team ensures a smooth, accurate, and hassle-free process while providing complete support from application submission to final approval.',
-        'icon' => '⚖️',
+        'icon' => '⚕️',
         'pricing' => '₹499 onwards',
         'documents' => [],
         'eligibility' => 'All active EPF member account holders or ESIC insured persons seeking claims or portal updates.',
@@ -421,6 +421,107 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
     <meta name="google-site-verification" content="yKSNz1KfIvI_czkDpaBKgPJ6PcRajw9ptqf8lJc2YKQ" />
     <title><?php echo $meta_title; ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aadhivarahaservices.com/<?php echo $page === 'home' ? '' : '?page=' . $page . (isset($_GET['id']) ? '&id=' . htmlspecialchars($_GET['id']) : ''); ?>" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="<?php echo $meta_title; ?>" />
+    <meta property="og:description" content="<?php echo htmlspecialchars($meta_desc); ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aadhivarahaservices.com/<?php echo $page === 'home' ? '' : '?page=' . $page . (isset($_GET['id']) ? '&id=' . htmlspecialchars($_GET['id']) : ''); ?>" />
+    <meta property="og:image" content="https://aadhivarahaservices.com/images/logo.png" />
+    <meta property="og:site_name" content="Aadhivaraha Services" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<?php echo $meta_title; ?>" />
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($meta_desc); ?>" />
+    <meta name="twitter:image" content="https://aadhivarahaservices.com/images/logo.png" />
+
+    <!-- Performance Optimization: Preconnect & DNS Prefetch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
+    <!-- Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://aadhivarahaservices.com/#organization",
+          "name": "Aadhivaraha Services",
+          "url": "https://aadhivarahaservices.com/",
+          "logo": "https://aadhivarahaservices.com/images/logo.png",
+          "image": "https://aadhivarahaservices.com/images/logo.png",
+          "description": "Premium business consultancy, EPF & ESIC compliance, GST registration, and government project bid support in Karimnagar, Telangana.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Near KIMS Degree College, Back Side of KNR Bus Stand, Mukarampura",
+            "addressLocality": "Karimnagar",
+            "addressRegion": "Telangana",
+            "postalCode": "505001",
+            "addressCountry": "IN"
+          },
+          "telephone": "+91-7981674916",
+          "email": "aadhivarahaservices@gmail.com",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "10:00",
+              "closes": "21:00"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://aadhivarahaservices.com/#website",
+          "url": "https://aadhivarahaservices.com/",
+          "name": "Aadhivaraha Services",
+          "publisher": {
+            "@id": "https://aadhivarahaservices.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://aadhivarahaservices.com/"
+            }
+            <?php if ($page !== 'home'): ?>
+            ,{
+              "@type": "ListItem",
+              "position": 2,
+              "name": "<?php echo addslashes(str_replace(' | Aadhivaraha Services', '', $meta_title)); ?>",
+              "item": "https://aadhivarahaservices.com/?page=<?php echo $page; ?>"
+            }
+            <?php endif; ?>
+          ]
+        }
+        <?php if ($page === 'service-details' && isset($services[$service_id])): ?>
+        ,{
+          "@type": "Service",
+          "name": "<?php echo addslashes($services[$service_id]['title']); ?>",
+          "provider": {
+            "@id": "https://aadhivarahaservices.com/#organization"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Karimnagar"
+          },
+          "description": "<?php echo addslashes(strip_tags($services[$service_id]['desc'])); ?>"
+        }
+        <?php endif; ?>
+      ]
+    }
+    </script>
+
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 
     <!-- Google tag (gtag.js) -->
@@ -518,7 +619,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                     <!-- Col 1: Brand -->
                     <div class="footer-brand-col">
                         <a href="index.php?page=home" class="footer-brand-logo">
-                            <img src="images/logo.png" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha Services Logo">
+                            <img src="images/logo.png" loading="lazy" onerror="this.onerror=null; this.src='images/logo.jpg';" alt="Aadhivaraha Services Logo">
                             <div class="footer-brand-name">
                                 <span class="f-brand-primary">AADHIVARAHA</span>
                                 <span class="f-brand-accent">SERVICES</span>

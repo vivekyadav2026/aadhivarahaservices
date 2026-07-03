@@ -248,25 +248,25 @@
 <section style="background-color: var(--color-primary); padding: 60px 0;">
     <div class="container">
         <div class="stats-grid-layout">
-            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
-                <div style="font-size: 44px; margin-bottom: 12px;">🏅</div>
-                <h4 style="font-size: 30px; font-weight: 800; margin-bottom: 4px;">9+</h4>
-                <p style="font-size: 15px; font-weight: 500; color: rgba(255,255,255,0.9);">Years Experience</p>
+            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15); padding: 10px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">📄</div>
+                <h4 style="font-size: 18px; font-weight: 800; margin-bottom: 8px;">Accurate Documentation</h4>
+                <p style="font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.85); line-height: 1.5;">Professional documentation with complete compliance support.</p>
             </div>
-            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
-                <div style="font-size: 44px; margin-bottom: 12px;">👥</div>
-                <h4 style="font-size: 30px; font-weight: 800; margin-bottom: 4px;">500+</h4>
-                <p style="font-size: 15px; font-weight: 500; color: rgba(255,255,255,0.9);">Clients Supported</p>
+            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15); padding: 10px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">⏱️</div>
+                <h4 style="font-size: 18px; font-weight: 800; margin-bottom: 8px;">Timely Service</h4>
+                <p style="font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.85); line-height: 1.5;">Quick processing with accurate and timely service.</p>
             </div>
-            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15);">
-                <div style="font-size: 44px; margin-bottom: 12px;">🛡️</div>
-                <h4 style="font-size: 30px; font-weight: 800; margin-bottom: 4px;">EPF & ESIC</h4>
-                <p style="font-size: 15px; font-weight: 500; color: rgba(255,255,255,0.9);">Specialist</p>
+            <div class="stats-item" style="border-right: 1px solid rgba(255,255,255,0.15); padding: 10px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">🤝</div>
+                <h4 style="font-size: 18px; font-weight: 800; margin-bottom: 8px;">Trusted Guidance</h4>
+                <p style="font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.85); line-height: 1.5;">Reliable guidance for Individuals, Businesses & Employers.</p>
             </div>
-            <div class="stats-item">
-                <div style="font-size: 44px; margin-bottom: 12px;">🏛️</div>
-                <h4 style="font-size: 30px; font-weight: 800; margin-bottom: 4px;">Government &</h4>
-                <p style="font-size: 15px; font-weight: 500; color: rgba(255,255,255,0.9);">Business Services</p>
+            <div class="stats-item" style="padding: 10px;">
+                <div style="font-size: 40px; margin-bottom: 15px;">💼</div>
+                <h4 style="font-size: 18px; font-weight: 800; margin-bottom: 8px;">One Stop Business Solutions</h4>
+                <p style="font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.85); line-height: 1.5;">EPF, ESIC, GST, PAN, MSME, Labour Licence, DSC, GeM, Tender Support, Xerox & DTP.</p>
             </div>
         </div>
     </div>

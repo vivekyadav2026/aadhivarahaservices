@@ -505,12 +505,12 @@ $faqs = $all_faqs[$service_id] ?? [
         <div class="srv-hero-right">
             <div class="srv-hero-divider"></div>
             <div class="srv-hero-image-wrapper">
-                <?php if ($service_id === 'gst-registration'): ?>
+                <?php if ($service_id === 'gst-registration' || $service_id === 'gst-services'): ?>
                     <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop" class="srv-hero-img" alt="GST Registration Details">
-                <?php elseif ($service_id === 'esic-registration'): ?>
-                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop" class="srv-hero-img" alt="ESIC Registration Details">
-                <?php elseif ($service_id === 'epfo-registration'): ?>
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" class="srv-hero-img" alt="EPFO Registration Details">
+                <?php elseif ($service_id === 'employer-side'): ?>
+                    <img src="images/epfo_services.png" class="srv-hero-img" alt="EPFO & ESIC Employer Details">
+                <?php elseif ($service_id === 'epfo-esic-claims'): ?>
+                    <img src="images/esic_services.png" class="srv-hero-img" alt="EPFO & ESIC Claims Details">
                 <?php else: ?>
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop" class="srv-hero-img" alt="<?php echo $s['title']; ?> Details">
                 <?php endif; ?>
