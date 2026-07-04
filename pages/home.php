@@ -165,6 +165,76 @@
     </div>
 </section>
 
+<!-- EPFO 3.0 Specialist Banner -->
+<section style="background: linear-gradient(135deg, #f0f7ff, #e0f2fe); padding: 60px 0; border-bottom: 1px solid #d1e0f0;">
+    <div class="container">
+        <div style="background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 10px 30px rgba(2,132,199,0.08); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; border: 1px solid #bae6fd; position: relative; overflow: hidden;">
+            <!-- Background Decoration -->
+            <div style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; background: #e0f2fe; border-radius: 50%; opacity: 0.5; z-index: 0;"></div>
+            
+            <div style="flex: 1; min-width: 320px; z-index: 1;">
+                <div style="display: inline-block; background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; font-size: 13px; font-weight: 800; padding: 6px 14px; border-radius: 20px; margin-bottom: 20px; letter-spacing: 0.5px;">🌟 EPFO 3.0 – COMPLETE SPECIALIST 🌟</div>
+                <h2 style="font-size: 32px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px; line-height: 1.3;">Need expert assistance with EPFO 3.0 services?</h2>
+                <p style="font-size: 16px; color: #475569; line-height: 1.6; margin-bottom: 24px;">Get complete Professional Support for All EPFO 3.0 Employee & Employer Services with Fast & Paperless Claim Guidance.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-bottom: 32px;">
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        PF Withdrawal Claims
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        UAN Activation & KYC Updates
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Aadhaar, PAN & Bank Linking
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Name / DOB / Father Name Corrections
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Joint Declaration Support
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Pension (EPS) Services
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        EPF Transfer & Balance Assistance
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #334155; font-weight: 600;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        Employer & Employee EPF Support
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                    <a href="https://wa.me/917981674916?text=Hello%2C%20I%20need%20assistance%20with%20EPFO%203.0%20services" target="_blank" class="btn btn-call" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; font-size: 15px; border-radius: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        Expert on WhatsApp
+                    </a>
+                    <a href="index.php?page=service-details&id=epfo-3-specialist" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; font-size: 15px; border-radius: 8px; background: #0284c7; border: 1px solid #0284c7;">
+                        View Details 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+            <div style="flex: 0 0 30%; min-width: 250px; text-align: center; display: flex; justify-content: center; align-items: center; z-index: 1;">
+                 <div style="width: 100%; max-width: 280px; height: 280px; background: linear-gradient(135deg, #bae6fd, #e0f2fe); border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.15); border: 8px solid #fff;">
+                     <div style="font-size: 90px; line-height: 1; color: var(--color-primary); display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                        <span>💼</span>
+                        <div style="background: #fff; padding: 6px 16px; border-radius: 20px; font-size: 15px; font-weight: 800; color: #0284c7; box-shadow: 0 4px 10px rgba(0,0,0,0.08); letter-spacing: 0.5px;">EPFO 3.0 Expert</div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Popular Services Section -->
 <section id="popular-services" style="background-color: #fff; padding: 80px 0;">
     <div class="container">

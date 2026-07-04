@@ -126,6 +126,21 @@ $services = [
             'a' => 'Yes, EPFO portal guidelines now require an active e-nomination on file before processing online withdrawal claims.'
         ]
     ],
+    'epfo-3-specialist' => [
+        'title' => '🌟 EPFO 3.0 – Complete Specialist 🌟',
+        'desc' => 'Get complete Professional Support for All EPFO 3.0 Employee & Employer Services including PF Withdrawal Claims, UAN Activation & KYC Updates.',
+        'details' => 'Need expert assistance with EPFO 3.0 services? We provide Fast & Paperless Claim Guidance. Our services include: PF Withdrawal Claims, UAN Activation & KYC Updates, Aadhaar, PAN & Bank Linking, Name / DOB / Father Name Corrections, Joint Declaration Support, Pension (EPS) Services, EPF Transfer & Balance Assistance, and complete Employer & Employee EPF Support.',
+        'icon' => '🌟',
+        'pricing' => '₹499 onwards',
+        'documents' => ['Aadhaar Card', 'PAN Card', 'UAN Number', 'Bank Passbook / Cancelled Cheque'],
+        'eligibility' => 'All active EPF member account holders or employers seeking EPFO 3.0 services.',
+        'process' => '1. Submit Required Documents -> 2. Document Verification -> 3. Application / Claim Preparation -> 4. Online Submission -> 5. Status Tracking -> 6. Final Approval',
+        'timeline' => '2 to 10 Working Days',
+        'faq' => [
+            'q' => 'Do you provide Complete Employer & Employee EPF Support?',
+            'a' => 'Yes, we offer Fast & Paperless Claim Guidance and complete Professional Support for All EPFO 3.0 Employee & Employer Services.'
+        ]
+    ],
     'gst-services' => [
         'title' => 'GST Registration & Returns',
         'desc' => 'Apply for a Goods and Services Tax Identification Number (GSTIN) and file monthly/quarterly tax returns.',
@@ -736,6 +751,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                 </div><!-- /.footer-main-grid -->
             </div>
         </div><!-- /.footer-body -->
+
+        <!-- Follow Us Strip -->
+        <div style="background-color: #1a3835; padding: 20px 0; display: flex; justify-content: center; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.05);">
+            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                <span style="color: #ffffff; font-size: 15px; font-weight: 500;">Follow us</span>
+                
+                <div style="display: flex; gap: 12px;">
+                    <a href="https://www.facebook.com/AadhivarahaServices/" target="_blank" style="width: 38px; height: 38px; border-radius: 50%; background: #1877F2; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 320 512" fill="currentColor"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                    </a>
+                    <a href="https://x.com/AadhivarahaSer" target="_blank" style="width: 38px; height: 38px; border-radius: 50%; background: #1DA1F2; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512" fill="currentColor"><path d="M459.37 151.71c.32 4.54.32 9.09.32 13.64 0 138.72-105.58 298.55-298.55 298.55-59.45 0-114.68-17.21-161.13-47.1 8.44.97 16.56 1.29 25.32 1.29 49.03 0 94.16-16.56 130.26-44.81-46.1-.97-84.74-31.17-98.05-72.73 6.49 1.3 13.31 1.95 20.13 1.95 9.74 0 19.16-1.3 28.25-3.57-48.05-9.74-84.42-51.95-84.42-102.27v-1.3c14.29 7.79 30.52 12.66 48.05 13.31-28.25-18.83-46.75-51.3-46.75-87.99 0-19.48 5.19-37.66 14.29-53.57 51.95 63.64 129.22 105.19 216.23 109.74-1.62-7.79-2.6-15.91-2.6-24.03 0-57.79 46.75-104.87 104.87-104.87 30.19 0 57.47 12.66 76.62 33.12 23.7-4.54 46.43-13.31 66.56-25.32-7.79 24.35-24.35 44.81-46.1 57.79 21.1-2.27 41.56-8.12 60.39-16.23-14.29 20.78-32.14 39.29-52.6 54.22z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/aadhivarahaservices?igsh=NXkzdmtnMGFyNzh1" target="_blank" style="width: 38px; height: 38px; border-radius: 50%; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://www.youtube.com/@AADHIVARAHASERVICES" target="_blank" style="width: 38px; height: 38px; border-radius: 50%; background: #FF0000; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 576 512" fill="currentColor"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" style="width: 38px; height: 38px; border-radius: 50%; background: #0077B5; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 448 512" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <!-- Bottom Bar -->
         <div class="footer-bottom-bar">
