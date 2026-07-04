@@ -350,7 +350,7 @@ if (!in_array($page, $allowed_pages)) {
 }
 
 // Generate SEO Title and Meta Description Dynamically
-$meta_title = "Aadhivaraha Services | Premium Business Consultancy";
+$meta_title = "Aadhivaraha Services ";
 $meta_desc  = "Trusted partner for EPF, ESIC, GST, Firm Registration, Labour Licences, Digital Signatures, and government project bid support in Karimnagar, Telangana.";
 
 if ($page === 'about') {
@@ -471,7 +471,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
           "url": "https://aadhivarahaservices.com/",
           "logo": "https://aadhivarahaservices.com/images/logo.png",
           "image": "https://aadhivarahaservices.com/images/logo.png",
-          "description": "Premium business consultancy, EPF & ESIC compliance, GST registration, and government project bid support in Karimnagar, Telangana.",
+          "description": " EPF & ESIC compliance, GST registration, and government project bid support in Karimnagar, Telangana.",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Near KIMS Degree College, Back Side of KNR Bus Stand, Mukarampura",
