@@ -55,41 +55,76 @@
                 <p style="color: var(--color-text); font-size: 14.5px; line-height: 1.7;">Whether you are a startup, individual professional, shop owner or a large organization – we are here to simplify your compliance journey.</p>
             </div>
             <div>
-                <div class="story-cards-container">
-                    <!-- Card 1 -->
-                    <div class="story-feature-card">
-                        <div class="story-card-icon">
-                            <!-- Document icon -->
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                        </div>
-                        <div class="story-card-content">
-                            <h4>Compliance</h4>
-                            <p>End-to-end statutory & legal compliance</p>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="story-feature-card">
-                        <div class="story-card-icon">
-                            <!-- Globe icon -->
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                        </div>
-                        <div class="story-card-content">
-                            <h4>Regulations</h4>
-                            <p>Navigating complex government frameworks</p>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="story-feature-card">
-                        <div class="story-card-icon">
-                            <!-- Shield icon -->
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                        </div>
-                        <div class="story-card-content">
-                            <h4>Policies</h4>
-                            <p>Strategic policy advisory & implementation</p>
-                        </div>
-                    </div>
+                <img src="images/about_hero_team.png" alt="Our Story" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service Section 1: Government Registrations -->
+<section style="background-color: #ffffff; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
+    <div class="container">
+        <div class="service-alt-grid">
+            <div class="order-mobile-2">
+                <div style="width: 64px; height: 64px; background: #f4f7f9; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary);">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>
                 </div>
+                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">Government Registrations</h3>
+                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Complete assistance for MSME (Udyam), GST Registration, PAN Services, Trade License, Shops & Establishments Registration, Labour Licences, and other Government Registrations.</p>
+                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> MSME & Udyam</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> GST & PAN Services</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Shops & Establishments</li>
+                </ul>
+            </div>
+            <div class="order-mobile-1">
+                <img src="images/contact_hero_support.png" alt="Government Registrations" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service Section 2: EPF & ESIC Services -->
+<section style="background-color: #f8fafc; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
+    <div class="container">
+        <div class="service-alt-grid">
+            <div class="order-mobile-1">
+                <img src="images/epfo_services.png" alt="EPF & ESIC Services" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
+            </div>
+            <div class="order-mobile-2">
+                <div style="width: 64px; height: 64px; background: #ffffff; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">EPF & ESIC Services</h3>
+                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Professional support for EPF & ESIC Employer Registration, ECR Filing, UAN & KYC Updates, Employee Claims, Compliance, Returns, and Employer/Member Services.</p>
+                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Employer Registration & ECR Filing</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> UAN, KYC & Claims Support</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Monthly Compliance & Returns</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service Section 3: Business & Tender Solutions -->
+<section style="background-color: #ffffff; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
+    <div class="container">
+        <div class="service-alt-grid">
+            <div class="order-mobile-2">
+                <div style="width: 64px; height: 64px; background: #f4f7f9; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary);">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M16 13H8"></path><path d="M16 17H8"></path><path d="M10 9H8"></path></svg>
+                </div>
+                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">Business & Tender Solutions</h3>
+                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Expert assistance for GeM Registration, Government e-Tenders (Central & Telangana), Digital Signature Certificates (DSC), Documentation, Compliance, and Business Support Services.</p>
+                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> GeM & e-Tender Registration</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Digital Signature Certificates</li>
+                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Complete Documentation Support</li>
+                </ul>
+            </div>
+            <div class="order-mobile-1">
+                <img src="images/hero_bg.png" alt="Business & Tender Solutions" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); object-fit: cover; max-height: 400px;">
             </div>
         </div>
     </div>
