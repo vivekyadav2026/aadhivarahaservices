@@ -272,6 +272,41 @@
     </div>
 </section>
 
+<!-- Founders Section -->
+<section style="background-color: #ffffff; padding: 80px 0;">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <span style="color: var(--color-accent); font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; display: block; margin-bottom: 6px;">OUR TEAM</span>
+            <h2 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 10px;">Meet Our Founders</h2>
+            <span style="display: block; width: 40px; height: 3px; background: var(--color-accent); margin: 0 auto;"></span>
+        </div>
+        
+        <div class="founders-grid">
+            <!-- Founder 1 -->
+            <div class="founder-card">
+                <div class="founder-img-wrapper">
+                    <img src="images/prashanth.jpg" alt="P. Prashanth" class="founder-img">
+                </div>
+                <div class="founder-info">
+                    <h3 class="founder-name">P. Prashanth</h3>
+                    <p class="founder-title">Founder</p>
+                </div>
+            </div>
+            
+            <!-- Founder 2 -->
+            <div class="founder-card">
+                <div class="founder-img-wrapper">
+                    <img src="images/rajesh.jpg" alt="D. Rajesh" class="founder-img">
+                </div>
+                <div class="founder-info">
+                    <h3 class="founder-name">D. Rajesh</h3>
+                    <p class="founder-title">Founder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Why Choose Us -->
 <section style="background-color: #f8fafd; padding: 80px 0 100px 0;">
     <div class="container">
