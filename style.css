@@ -3538,6 +3538,70 @@ textarea.contact-form-control {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
 }
 
+/* Story Cards Redesign */
+.story-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.story-feature-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.story-feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.story-card-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: #f4f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #151c3d;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.story-feature-card:hover .story-card-icon {
+  transform: scale(1.05);
+}
+
+.story-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.story-card-content h4 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #151c3d;
+  margin: 0;
+}
+
+.story-card-content p {
+  font-size: 13.5px;
+  color: #475569;
+  margin: 0;
+  line-height: 1.4;
+}
+
 /* Mission & Vision */
 .abt-mv-grid {
   display: grid;

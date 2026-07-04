@@ -55,37 +55,39 @@
                 <p style="color: var(--color-text); font-size: 14.5px; line-height: 1.7;">Whether you are a startup, individual professional, shop owner or a large organization – we are here to simplify your compliance journey.</p>
             </div>
             <div>
-                <div class="story-binders-container" style="background: #ffffff; border-radius: 12px; padding: 40px; display: flex; align-items: center; justify-content: center; border: 1px solid #e2e8f0; position: relative; min-height: 280px; box-shadow: 0 10px 30px rgba(0,0,0,0.015); overflow: hidden;">
-                    <!-- Binders Stack -->
-                    <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 320px; z-index: 2;">
-                        <!-- Binder 1 -->
-                        <div style="background: #151c3d; border-radius: 4px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border-left: 6px solid var(--color-accent); position: relative;">
-                            <span style="background: #ffffff; color: #151c3d; padding: 6px 16px; font-size: 13px; font-weight: 800; border-radius: 2px; letter-spacing: 1px; border: 1px solid #cbd5e1; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);">COMPLIANCE</span>
-                            <div style="width: 16px; height: 16px; border-radius: 50%; border: 2px solid #94a3b8; background: #0f172a;"></div>
+                <div class="story-cards-container">
+                    <!-- Card 1 -->
+                    <div class="story-feature-card">
+                        <div class="story-card-icon">
+                            <!-- Document icon -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                         </div>
-                        <!-- Binder 2 -->
-                        <div style="background: #0f172a; border-radius: 4px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border-left: 6px solid #2563eb; position: relative;">
-                            <span style="background: #ffffff; color: #0f172a; padding: 6px 16px; font-size: 13px; font-weight: 800; border-radius: 2px; letter-spacing: 1px; border: 1px solid #cbd5e1; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);">REGULATIONS</span>
-                            <div style="width: 16px; height: 16px; border-radius: 50%; border: 2px solid #94a3b8; background: #0f172a;"></div>
-                        </div>
-                        <!-- Binder 3 -->
-                        <div style="background: #1e293b; border-radius: 4px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border-left: 6px solid #10b981; position: relative;">
-                            <span style="background: #ffffff; color: #1e293b; padding: 6px 16px; font-size: 13px; font-weight: 800; border-radius: 2px; letter-spacing: 1px; border: 1px solid #cbd5e1; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);">POLICIES</span>
-                            <div style="width: 16px; height: 16px; border-radius: 50%; border: 2px solid #94a3b8; background: #0f172a;"></div>
+                        <div class="story-card-content">
+                            <h4>Compliance</h4>
+                            <p>End-to-end statutory & legal compliance</p>
                         </div>
                     </div>
-                    
-                    <!-- Plant in background -->
-                    <div style="position: absolute; left: 20px; bottom: 20px; opacity: 0.9; z-index: 1;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="90" viewBox="0 0 60 80">
-                            <!-- Pot -->
-                            <path d="M15 50 L45 50 L40 75 L20 75 Z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.5"/>
-                            <!-- Plant Leaves -->
-                            <path d="M25 50 Q10 25 30 15 Q35 30 30 50" fill="#22c55e"/>
-                            <path d="M30 50 Q45 20 35 10 Q25 25 30 50" fill="#15803d"/>
-                            <path d="M28 50 Q15 35 25 25 Q30 35 28 50" fill="#4ade80"/>
-                            <path d="M32 50 Q50 35 35 25 Q30 35 32 50" fill="#166534"/>
-                        </svg>
+                    <!-- Card 2 -->
+                    <div class="story-feature-card">
+                        <div class="story-card-icon">
+                            <!-- Globe icon -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        </div>
+                        <div class="story-card-content">
+                            <h4>Regulations</h4>
+                            <p>Navigating complex government frameworks</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="story-feature-card">
+                        <div class="story-card-icon">
+                            <!-- Shield icon -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <div class="story-card-content">
+                            <h4>Policies</h4>
+                            <p>Strategic policy advisory & implementation</p>
+                        </div>
                     </div>
                 </div>
             </div>
