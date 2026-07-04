@@ -42,90 +42,67 @@
 </section>
 
 <!-- Our Story Section -->
-<section style="background-color: #f8fafc; padding: 80px 0; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
-    <div class="container">
-        <div class="abt-story-grid">
-            <div>
-                <h2 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 24px; position: relative;">
+<section style="background-color: #f8fafc; padding: 100px 0; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; position: relative;">
+    <!-- Abstract background shape -->
+    <div style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background: rgba(253, 107, 34, 0.03); border-radius: 50%; z-index: 1;"></div>
+    
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="abt-story-grid" style="align-items: center;">
+            <div style="padding-right: 30px;">
+                <span style="color: var(--color-accent); font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 8px;">HOW WE STARTED</span>
+                <h2 style="font-size: 36px; font-weight: 800; color: var(--color-primary); margin-bottom: 24px; position: relative;">
                     Our Story
-                    <span style="display: block; width: 40px; height: 3px; background: var(--color-accent); margin-top: 8px;"></span>
+                    <span style="display: block; width: 50px; height: 4px; background: var(--color-accent); margin-top: 12px; border-radius: 2px;"></span>
                 </h2>
-                <p style="color: var(--color-text); font-size: 14.5px; line-height: 1.7; margin-bottom: 16px;">Aadhivaraha Services was established with a clear vision to bridge the gap between complex government systems and business owners. We understand the challenges of compliance, paperwork and procedural delays.</p>
-                <p style="color: var(--color-text); font-size: 14.5px; line-height: 1.7; margin-bottom: 16px;">With deep domain expertise and updated knowledge of laws and portals, we provide end-to-end support in registrations, returns, licenses, compliance and documentation.</p>
-                <p style="color: var(--color-text); font-size: 14.5px; line-height: 1.7;">Whether you are a startup, individual professional, shop owner or a large organization – we are here to simplify your compliance journey.</p>
+                
+                <p style="color: #475569; font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
+                    Aadhivaraha Services was established with a clear vision: <strong style="color: var(--color-primary);">to bridge the gap between complex government systems and business owners.</strong>
+                </p>
+                
+                <div style="background: #ffffff; border-left: 4px solid var(--color-accent); padding: 20px 24px; border-radius: 0 8px 8px 0; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                    <p style="color: var(--color-primary); font-size: 15px; line-height: 1.7; font-style: italic; margin: 0; font-weight: 600;">
+                        "We understand the challenges of compliance, endless paperwork, and procedural delays that businesses face every day."
+                    </p>
+                </div>
+                
+                <p style="color: #475569; font-size: 15px; line-height: 1.8; margin-bottom: 16px;">
+                    With deep domain expertise and updated knowledge of laws and portals, we provide end-to-end support in registrations, returns, licenses, compliance, and documentation.
+                </p>
+                <p style="color: #475569; font-size: 15px; line-height: 1.8;">
+                    Whether you are a startup, an individual professional, a shop owner, or a large organization – we are here to simplify your compliance journey so you can focus on growth.
+                </p>
             </div>
+            
+            <div style="position: relative;">
+                <img src="images/contact_hero_support.png" alt="Our Consulting Approach" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); position: relative; z-index: 2;">
+                <!-- Decorative dot pattern behind image -->
+                <div style="position: absolute; bottom: -20px; left: -20px; width: 100px; height: 100px; background-image: radial-gradient(var(--color-primary) 2px, transparent 2px); background-size: 15px 15px; opacity: 0.1; z-index: 1;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trust & Commitment Quote Banner -->
+<section style="background-color: #151c3d; color: #ffffff; padding: 100px 0; text-align: center; position: relative; overflow: hidden;">
+    <!-- Abstract subtle background pattern -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.03; background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 30px 30px;"></div>
+    
+    <div class="container" style="position: relative; z-index: 2; max-width: 900px;">
+        <div style="width: 80px; height: 80px; background: rgba(255,255,255,0.05); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px;">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
+        </div>
+        
+        <h2 style="font-size: 32px; font-weight: 300; line-height: 1.6; margin-bottom: 40px; font-style: italic; letter-spacing: 0.5px;">
+            "Trust is built on <strong style="color: var(--color-accent); font-weight: 700;">transparency</strong>, <strong style="color: var(--color-accent); font-weight: 700;">expertise</strong>, and a relentless commitment to our clients' success. We don't just process documents; we build long-lasting corporate partnerships."
+        </h2>
+        
+        <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+            <span style="display: block; width: 40px; height: 2px; background: rgba(255,255,255,0.2);"></span>
             <div>
-                <img src="images/about_hero_team.png" alt="Our Story" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <p style="font-size: 16px; font-weight: 700; letter-spacing: 2px; color: #ffffff; text-transform: uppercase; margin: 0 0 5px;">Aadhivaraha Services</p>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin: 0; text-transform: uppercase; letter-spacing: 1px;">Your Trusted Compliance Partner</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Service Section 1: Government Registrations -->
-<section style="background-color: #ffffff; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
-    <div class="container">
-        <div class="service-alt-grid">
-            <div class="order-mobile-2">
-                <div style="width: 64px; height: 64px; background: #f4f7f9; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary);">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>
-                </div>
-                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">Government Registrations</h3>
-                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Complete assistance for MSME (Udyam), GST Registration, PAN Services, Trade License, Shops & Establishments Registration, Labour Licences, and other Government Registrations.</p>
-                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> MSME & Udyam</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> GST & PAN Services</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Shops & Establishments</li>
-                </ul>
-            </div>
-            <div class="order-mobile-1">
-                <img src="images/contact_hero_support.png" alt="Government Registrations" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Service Section 2: EPF & ESIC Services -->
-<section style="background-color: #f8fafc; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
-    <div class="container">
-        <div class="service-alt-grid">
-            <div class="order-mobile-1">
-                <img src="images/epfo_services.png" alt="EPF & ESIC Services" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08);">
-            </div>
-            <div class="order-mobile-2">
-                <div style="width: 64px; height: 64px; background: #ffffff; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                </div>
-                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">EPF & ESIC Services</h3>
-                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Professional support for EPF & ESIC Employer Registration, ECR Filing, UAN & KYC Updates, Employee Claims, Compliance, Returns, and Employer/Member Services.</p>
-                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Employer Registration & ECR Filing</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> UAN, KYC & Claims Support</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Monthly Compliance & Returns</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Service Section 3: Business & Tender Solutions -->
-<section style="background-color: #ffffff; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
-    <div class="container">
-        <div class="service-alt-grid">
-            <div class="order-mobile-2">
-                <div style="width: 64px; height: 64px; background: #f4f7f9; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--color-primary);">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M16 13H8"></path><path d="M16 17H8"></path><path d="M10 9H8"></path></svg>
-                </div>
-                <h3 style="font-size: 28px; font-weight: 800; color: var(--color-primary); margin-bottom: 16px;">Business & Tender Solutions</h3>
-                <p style="color: var(--color-text); font-size: 16px; line-height: 1.8;">Expert assistance for GeM Registration, Government e-Tenders (Central & Telangana), Digital Signature Certificates (DSC), Documentation, Compliance, and Business Support Services.</p>
-                <ul style="margin-top: 24px; list-style: none; padding: 0; color: var(--color-text); font-size: 15px; line-height: 1.8;">
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> GeM & e-Tender Registration</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Digital Signature Certificates</li>
-                    <li style="display: flex; align-items: center; gap: 10px;"><span style="color: var(--color-accent);">✔</span> Complete Documentation Support</li>
-                </ul>
-            </div>
-            <div class="order-mobile-1">
-                <img src="images/hero_bg.png" alt="Business & Tender Solutions" style="width: 100%; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); object-fit: cover; max-height: 400px;">
-            </div>
+            <span style="display: block; width: 40px; height: 2px; background: rgba(255,255,255,0.2);"></span>
         </div>
     </div>
 </section>
