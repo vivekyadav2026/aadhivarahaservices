@@ -1,4 +1,10 @@
 <?php
+// Prevent browser caching of dynamic page content
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
+
 // Global array containing exactly the 23 services requested
 $services = [
     'firm-registration' => [
@@ -367,7 +373,7 @@ if ($page === 'about') {
     }
 } elseif ($page === 'contact') {
     $meta_title = "Contact Us | Aadhivaraha Services Karimnagar";
-    $meta_desc  = "Get in touch with Aadhivaraha Services at Mukarampura, Karimnagar. Call 7981674916 or email aadhivarahaservices@gmail.com for support.";
+    $meta_desc  = "Get in touch with Aadhivaraha Services, opposite Khlabharathi Lane, near Kims Degree Pg College, Karimnagar. Call 7981674916 or email aadhivarahaservices@gmail.com for support.";
 } elseif ($page === 'privacy') {
     $meta_title = "Privacy Policy | Aadhivaraha Services";
     $meta_desc  = "Read the privacy policy of Aadhivaraha Services outlining document confidentiality, data safety, and data deletion requests.";
@@ -474,7 +480,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
           "description": " EPF & ESIC compliance, GST registration, and government project bid support in Karimnagar, Telangana.",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Near KIMS Degree College, Back Side of KNR Bus Stand, Mukarampura",
+            "streetAddress": "H.No.2-7-202, Beside Rice Millers Association Office, Opposite Khlabharathi Lane, Near Kims Degree Pg College",
             "addressLocality": "Karimnagar",
             "addressRegion": "Telangana",
             "postalCode": "505001",
@@ -715,7 +721,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
                                 </div>
                                 <div>
                                     <span class="footer-contact-label">Office</span>
-                                    <p>H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar-505001</p>
+                                    <p>H.No.2-7-202, Beside Rice Millers Association Office, Opposite Khlabharathi Lane, Near Kims Degree Pg College, Karimnagar-505001</p>
                                 </div>
                             </div>
                             <div class="footer-contact-item">

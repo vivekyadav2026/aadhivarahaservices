@@ -112,7 +112,7 @@
                 <p style="font-weight: 600; color: var(--color-text); margin-bottom: 6px;">AADHIVARAHA SERVICES</p>
                 <p style="margin-bottom: 4px; font-style: italic;">A Unit of Aadhivaraha Security Allied Services</p>
                 <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px;">
-                    <p>📍 Near KIMS Degree College, Back Side of KNR Bus Stand, Mukarampura, Karimnagar, Telangana</p>
+                    <p>📍 H.No.2-7-202, Beside Rice Millers Association Office, Opposite Khlabharathi Lane, Near Kims Degree Pg College, Karimnagar, Telangana - 505001</p>
                     <p>📞 <a href="tel:7981674916" style="color: var(--color-primary); text-decoration: none;">7981674916</a> &nbsp;|&nbsp; <a href="tel:9553186025" style="color: var(--color-primary); text-decoration: none;">9553186025</a></p>
                     <p>📧 <a href="mailto:aadhivarahaservices@gmail.com" style="color: var(--color-primary); text-decoration: none;">aadhivarahaservices@gmail.com</a></p>
                     <p>🌐 <a href="https://aadhivarahaservices.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); text-decoration: none;">https://aadhivarahaservices.com</a></p>

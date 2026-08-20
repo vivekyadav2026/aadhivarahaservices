@@ -79,7 +79,7 @@
             </div>
             <div>
                 <h4 style="margin: 0 0 5px 0; font-size: 15px; color: var(--color-primary);">Aadhivaraha Services</h4>
-                <p style="margin: 0; font-size: 14px; font-weight: 500; color: var(--color-text); line-height: 1.5;">A Unit of Aadhivaraha Security Allied Services<br>H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar-505001</p>
+                <p style="margin: 0; font-size: 14px; font-weight: 500; color: var(--color-text); line-height: 1.5;">A Unit of Aadhivaraha Security Allied Services<br>H.No.2-7-202, Beside Rice Millers Association Office, Opposite Khlabharathi Lane, Near Kims Degree Pg College, Karimnagar-505001</p>
             </div>
         </div>
     </div>

@@ -86,7 +86,7 @@ http://localhost/aadhivarahaservices/?page=service-details&service=gem-registrat
 
 **Aadhivaraha Services**
 A Unit of Aadhivaraha Security Allied Services
-H No, Beside Taraka Hotel, Mukarampura Street, Karimnagar – 505001, Telangana
+H.No.2-7-202, Beside Rice Millers Association Office, Opposite Khlabharathi Lane, Near Kims Degree Pg College, Karimnagar - 505001, Telangana
 
 📞 +91 79816 74916 / +91 95531 86025
 📧 aadhivarahaservices@gmail.com
