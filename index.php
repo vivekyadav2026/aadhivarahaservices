@@ -443,6 +443,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_lead'])) {
     <title><?php echo $meta_title; ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($meta_desc); ?>">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    
     <!-- Canonical URL -->
     <link rel="canonical" href="https://aadhivarahaservices.com/<?php echo $page === 'home' ? '' : '?page=' . $page . (isset($_GET['id']) ? '&id=' . htmlspecialchars($_GET['id']) : ''); ?>" />
 
