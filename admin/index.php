@@ -43,6 +43,23 @@ $action  = $_POST['action']  ?? '';
 $message = '';
 $msgType = 'success'; // success | error
 
+$leads = [];
+$conversations = [];
+if (isLoggedIn() && file_exists(BASE_DIR . '/vendor/autoload.php')) {
+    require_once BASE_DIR . '/vendor/autoload.php';
+    if (class_exists('Dotenv\Dotenv')) {
+        $dotenv = Dotenv\Dotenv::createImmutable(BASE_DIR);
+        $dotenv->safeLoad();
+        try {
+            $db = \App\Core\Database::getInstance()->getConnection();
+            $leads = $db->query("SELECT * FROM whatsapp_leads ORDER BY created_at DESC")->fetchAll();
+            $conversations = $db->query("SELECT * FROM whatsapp_conversations ORDER BY last_interaction_at DESC")->fetchAll();
+        } catch (Exception $e) {
+            // DB not setup yet
+        }
+    }
+}
+
 // LOGIN
 if ($action === 'login') {
     $pass = $_POST['password'] ?? '';
@@ -488,6 +505,9 @@ $smtpOk        = !empty($smtp['host']) && !empty($smtp['username']) && !empty($s
     <button class="tab-btn" onclick="switchTab('password',this)">
       🔒 Change Password
     </button>
+    <button class="tab-btn" onclick="switchTab('whatsapp',this)">
+      💬 WhatsApp
+    </button>
   </div>
 
   <!-- ── TAB 1: SMTP Settings ── -->
@@ -717,6 +737,69 @@ $smtpOk        = !empty($smtp['host']) && !empty($smtp['username']) && !empty($s
           Update Password
         </button>
       </form>
+    </div>
+  </div>
+
+  <!-- ── TAB 5: WhatsApp ── -->
+  <div id="tab-whatsapp" class="tab-panel">
+    <div class="card" style="max-width: 100%;">
+      <div class="card-title">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        WhatsApp Management
+      </div>
+      <div class="card-desc">View active WhatsApp bot conversations and captured leads.</div>
+      
+      <h3 style="margin-top: 24px; margin-bottom: 12px; font-size: 16px; color: var(--text);">Recent Leads (Talk to Agent)</h3>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+          <tr style="background: var(--surface2); border-bottom: 1px solid var(--border);">
+            <th style="padding: 10px;">ID</th>
+            <th style="padding: 10px;">Name</th>
+            <th style="padding: 10px;">Phone</th>
+            <th style="padding: 10px;">Service</th>
+            <th style="padding: 10px;">Message</th>
+            <th style="padding: 10px;">Status</th>
+            <th style="padding: 10px;">Date</th>
+          </tr>
+          <?php if (empty($leads)): ?>
+          <tr><td colspan="7" style="padding: 10px; color: var(--muted);">No leads captured yet.</td></tr>
+          <?php else: foreach ($leads as $lead): ?>
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 10px;"><?= $lead['id'] ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($lead['name']) ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($lead['phone']) ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($lead['service']) ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($lead['message']) ?></td>
+            <td style="padding: 10px;">
+                <span class="status-pill <?= $lead['status'] === 'open' ? 'warn' : 'ok' ?>"><?= ucfirst($lead['status']) ?></span>
+            </td>
+            <td style="padding: 10px; color: var(--muted);"><?= $lead['created_at'] ?></td>
+          </tr>
+          <?php endforeach; endif; ?>
+        </table>
+      </div>
+
+      <h3 style="margin-top: 40px; margin-bottom: 12px; font-size: 16px; color: var(--text);">Active Conversations</h3>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+          <tr style="background: var(--surface2); border-bottom: 1px solid var(--border);">
+            <th style="padding: 10px;">ID</th>
+            <th style="padding: 10px;">Phone</th>
+            <th style="padding: 10px;">Current State / Menu</th>
+            <th style="padding: 10px;">Last Interaction</th>
+          </tr>
+          <?php if (empty($conversations)): ?>
+          <tr><td colspan="4" style="padding: 10px; color: var(--muted);">No active conversations yet.</td></tr>
+          <?php else: foreach ($conversations as $conv): ?>
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 10px;"><?= $conv['id'] ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($conv['phone']) ?></td>
+            <td style="padding: 10px;"><?= htmlspecialchars($conv['current_state'] ?? 'Browsing Menu') ?></td>
+            <td style="padding: 10px; color: var(--muted);"><?= $conv['last_interaction_at'] ?></td>
+          </tr>
+          <?php endforeach; endif; ?>
+        </table>
+      </div>
     </div>
   </div>
 
